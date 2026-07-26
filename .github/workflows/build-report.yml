@@ -6,7 +6,12 @@ on:
       - main
     paths:
       - "report/**"
+      - "governance/**"
+      - "knowledge/**"
+      - "intelligence/**"
+      - "strategy/**"
       - "data/**"
+      - "templates/**"
       - "scripts/**"
       - "styles/**"
       - "requirements.txt"
@@ -15,6 +20,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: living-smartcoat-pdf-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -28,6 +37,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install system fonts and libraries
         run: |
@@ -40,12 +50,18 @@ jobs:
       - name: Build PDF
         run: python scripts/build_report.py
 
+      - name: Verify PDF
+        run: |
+          test -s dist/SmartCoat_AI_Intelligence_Report_2026.pdf
+          ls -lh dist/SmartCoat_AI_Intelligence_Report_2026.pdf
+
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v6
         with:
           name: SmartCoat-AI-Intelligence-Report-2026
           path: dist/SmartCoat_AI_Intelligence_Report_2026.pdf
           if-no-files-found: error
+          retention-days: 90
 
       - name: Commit refreshed living PDF
         run: |
