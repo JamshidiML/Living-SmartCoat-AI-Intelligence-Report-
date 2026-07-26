@@ -1,32 +1,60 @@
 # Change Log
 
-All notable changes to the Living SmartCoat AI Intelligence Report are recorded here.
+All notable changes to the Living SmartCoat AI Intelligence Office are recorded here.
 
 The project follows semantic versioning adapted for a living intelligence publication:
 
 - **Major:** structural or annual transformation
-- **Minor:** weekly intelligence update with substantive new analysis
-- **Patch:** corrections, source updates, formatting or minor revisions
+- **Minor:** weekly or monthly intelligence update with substantive new analysis
+- **Patch:** corrections, source updates, formatting or build revisions
+
+## [1.0.0] — 2026-07-26
+
+### Added
+
+- Independent Strategic Intelligence Office architecture, explicitly separated from `smartcoat-intelligence`
+- ChatGPT weekly, monthly and quarterly operating model
+- Editorial, evidence and confidence policy
+- Multi-source report manifest and publication pipeline
+- Initial one-month intelligence cycle covering 26 June–26 July 2026
+- Regional analysis for Germany, EU, United States, UAE, Qatar and Saudi Arabia
+- Company profiles for CuspAI, Mistral AI, MGX, SambaNova and Elm
+- Six research-paper implementation assessments
+- Technology radar, funding radar and regulatory radar
+- Product and startup opportunity portfolio
+- 90-day action roadmap
+- Risks, decisions and assumptions register
+- Structured intelligence registry and reusable entry template
+
+### Changed
+
+- Promoted the report from a single Markdown document to a generated intelligence book assembled from persistent knowledge and strategy sources.
+- Reframed the canonical report as an executive brief and publication map.
+- Expanded GitHub Actions triggers to rebuild after changes in governance, knowledge, intelligence, strategy and templates.
+
+### Strategic decisions
+
+- Germany-first industrial validation
+- Human-supervised shadow-mode inspection pilot
+- Unknown-defect handling and severity grading as core requirements
+- Model and hardware independence
+- Domain data and knowledge graph as the primary moat
+- Gulf expansion after a validated German proof point
 
 ## [0.1.1] — 2026-07-26
 
 ### Fixed
 
 - Triggered the first canonical PDF build after the workflow became available on the default branch.
+- Pinned a compatible PDF backend and upgraded GitHub Actions to Node 24 releases.
 
 ## [0.1.0] — 2026-07-26
 
 ### Added
 
 - Canonical 2026 living-report source
-- Ten-part intelligence structure
+- Initial intelligence structure
 - English-first, Persian-second content policy
 - SmartCoat relevance and recommended-action requirements
-- Report governance, update and versioning rules
-- Initial strategic thesis, opportunity map, threat map and roadmap themes
 - Structured watch-list foundation
 - Automated PDF build foundation
-
-### Status
-
-Foundation edition. No historical news items have yet been promoted into the canonical report without fresh source verification.
