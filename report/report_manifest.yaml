@@ -1,0 +1,17 @@
+version: 1.0.0
+updated: 2026-07-26
+sources:
+  - report/SmartCoat_AI_Intelligence_Report_2026.md
+  - intelligence/monthly/2026-07_MONTHLY_INTELLIGENCE.md
+  - intelligence/regions/REGIONAL_INTELLIGENCE_JULY_2026.md
+  - knowledge/companies/COMPANY_INTELLIGENCE.md
+  - knowledge/research/RESEARCH_INTELLIGENCE.md
+  - knowledge/technologies/TECHNOLOGY_RADAR.md
+  - knowledge/funding/FUNDING_AND_PARTNERSHIP_RADAR.md
+  - knowledge/standards/REGULATORY_AND_STANDARDS_RADAR.md
+  - strategy/PRODUCT_AND_STARTUP_OPPORTUNITIES.md
+  - strategy/90_DAY_ACTION_ROADMAP.md
+  - strategy/RISKS_DECISIONS_AND_ASSUMPTIONS.md
+appendices:
+  - governance/CHATGPT_OPERATING_MODEL.md
+  - governance/EDITORIAL_AND_EVIDENCE_POLICY.md

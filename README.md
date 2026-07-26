@@ -1,23 +1,62 @@
-# Living SmartCoat AI Intelligence Report
+# Living SmartCoat AI Intelligence Office
 
-A continuously maintained intelligence system for SmartCoat covering:
+An independent, GitHub-backed strategic intelligence system for SmartCoat.
 
-- AI for materials discovery
-- Computer vision and industrial inspection
-- Technical textiles and advanced materials
-- Industrial AI, digital twins, knowledge graphs and agents
-- Startups, venture capital, acquisitions and partnerships
-- Research papers and implementation opportunities
-- SmartCoat-specific strategic insights and roadmap actions
+> **Repository boundary:** This repository is intentionally separate from `smartcoat-intelligence`. It contains research, market intelligence, knowledge assets, strategic analysis and generated publications. It must not contain SmartCoat application source code, production data, confidential formulations or factory credentials.
+
+## What ChatGPT maintains
+
+- Global technology and market scouting
+- Company and competitor profiles
+- Research-paper reviews and implementation assessments
+- Germany, EU, United States, UAE, Qatar and Saudi Arabia intelligence
+- AI, industrial AI, computer vision, technical textiles and advanced-materials analysis
+- Funding, regulation, standards and partnership radars
+- SmartCoat opportunity, threat and product-discovery analysis
+- Weekly, monthly, quarterly and annual synthesis
+- Version history, corrections and evidence traceability
+
+## Repository structure
+
+```text
+.
+├── governance/             # ChatGPT operating model and editorial controls
+├── knowledge/              # Persistent companies, research, technologies, funding, standards
+├── intelligence/           # Weekly, monthly and regional intelligence products
+├── strategy/               # Opportunities, risks, decisions and action roadmaps
+├── data/                   # Structured registries, taxonomy and watch lists
+├── templates/              # Reusable analysis templates
+├── report/                 # Canonical publication source and manifest
+├── scripts/                # Reproducible report build tools
+├── styles/                 # PDF styling
+└── dist/                   # Generated canonical PDF
+```
 
 ## Canonical outputs
 
-- Editable source: `report/SmartCoat_AI_Intelligence_Report_2026.md`
+- Executive source: `report/SmartCoat_AI_Intelligence_Report_2026.md`
+- Publication manifest: `report/report_manifest.yaml`
 - Living PDF: `dist/SmartCoat_AI_Intelligence_Report_2026.pdf`
 - Version history: `report/CHANGELOG.md`
-- Watch list: `data/watchlist.yaml`
+- Structured registry: `data/intelligence_registry.yaml`
 
-The report is updated as one coherent knowledge base. Existing entries are revised when facts change, duplicates are consolidated, stale items are corrected or retired, and every release records what changed.
+## Publication model
+
+ChatGPT updates the evidence-backed Markdown and YAML files. GitHub Actions then builds one coherent PDF from the ordered publication manifest and commits the refreshed PDF to `main`.
+
+```text
+Research and verification
+        ↓
+Knowledge-base updates
+        ↓
+Strategic synthesis
+        ↓
+GitHub commit / merge
+        ↓
+Automated PDF build
+        ↓
+Canonical living report
+```
 
 ## Build locally
 
@@ -26,17 +65,4 @@ python -m pip install -r requirements.txt
 python scripts/build_report.py
 ```
 
-## Governance
-
-Every factual entry should include:
-
-1. Publication/event date
-2. Source title and URL
-3. Region and category
-4. English summary
-5. Persian summary
-6. Why it matters for SmartCoat
-7. Recommended action
-8. Confidence/status marker
-
-Generated PDFs should not be edited manually. Update the Markdown source and rebuild.
+Generated PDFs must not be edited manually. Update the source files and rebuild.
