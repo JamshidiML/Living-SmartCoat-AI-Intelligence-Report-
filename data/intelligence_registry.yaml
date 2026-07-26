@@ -1,0 +1,164 @@
+schema_version: 1.0
+report_version: 1.0.0
+updated: 2026-07-26
+review_window:
+  start: 2026-06-26
+  end: 2026-07-26
+repository_boundary:
+  independent_from: JamshidiML/smartcoat-intelligence
+  allowed_content:
+    - public intelligence
+    - research synthesis
+    - market analysis
+    - strategic recommendations
+    - generated publications
+  prohibited_content:
+    - confidential formulations
+    - customer data
+    - production credentials
+    - personal data
+    - SmartCoat application source code
+regions:
+  - id: germany
+    priority: 1
+    role: pilot_and_validation
+    next_review: 2026-08-02
+  - id: european_union
+    priority: 2
+    role: funding_regulation_and_scaling
+    next_review: 2026-08-02
+  - id: united_states
+    priority: 3
+    role: technology_and_scientific_ai_ecosystem
+    next_review: 2026-08-02
+  - id: united_arab_emirates
+    priority: 4
+    role: investment_and_advanced_manufacturing_expansion
+    next_review: 2026-08-02
+  - id: saudi_arabia
+    priority: 5
+    role: partner_led_industrial_expansion
+    next_review: 2026-08-02
+  - id: qatar
+    priority: 6
+    role: research_governance_and_sovereign_ai_partnership
+    next_review: 2026-08-02
+companies:
+  - id: cuspai
+    category: materials_ai
+    region: united_kingdom
+    status: active
+    strategic_relevance: 5
+    confidence: high
+    review_trigger: polymer_coating_or_manufacturing_expansion
+  - id: mistral_ai
+    category: sovereign_foundation_models
+    region: european_union
+    status: active
+    strategic_relevance: 4
+    confidence: high
+    review_trigger: industrial_on_premise_agent_offering
+  - id: mgx
+    category: ai_investment
+    region: united_arab_emirates
+    status: active
+    strategic_relevance: 4
+    confidence: high
+    review_trigger: industrial_ai_application_investment
+  - id: sambanova
+    category: ai_infrastructure
+    region: united_states
+    status: active
+    strategic_relevance: 3
+    confidence: high
+    review_trigger: private_industrial_deployment
+  - id: elm
+    category: digital_platforms
+    region: saudi_arabia
+    status: active
+    strategic_relevance: 3
+    confidence: high
+    review_trigger: manufacturing_or_industrial_ai_programme
+technologies:
+  - id: open_world_defect_detection
+    movement: accelerating
+    maturity: developing
+    impact: 5
+    action: experiment
+  - id: anomaly_detection_human_review
+    movement: accelerating
+    maturity: deployable
+    impact: 5
+    action: pilot
+  - id: defect_severity_grading
+    movement: growing
+    maturity: developing
+    impact: 5
+    action: define_ontology
+  - id: synthetic_defect_generation
+    movement: growing
+    maturity: developing
+    impact: 4
+    action: controlled_experiment
+  - id: edge_ai_inspection
+    movement: strong
+    maturity: deployable
+    impact: 5
+    action: pilot
+  - id: industrial_knowledge_graphs
+    movement: growing
+    maturity: developing
+    impact: 5
+    action: adopt_foundation
+  - id: agentic_industrial_workflows
+    movement: accelerating
+    maturity: emerging
+    impact: 4
+    action: sandbox_only
+  - id: ai_act_compliance_tooling
+    movement: urgent
+    maturity: deployable
+    impact: 5
+    action: adopt_governance
+opportunities:
+  - id: textile_inspection_copilot
+    priority: 1
+    status: pilot_ready_concept
+  - id: knowledge_capture_gatekeeper
+    priority: 2
+    status: data_foundation_concept
+  - id: materials_supplier_resilience_graph
+    priority: 3
+    status: architecture_ready_concept
+  - id: fire_protection_formulation_planner
+    priority: 4
+    status: research_concept
+  - id: industrial_ai_compliance_pack
+    priority: 5
+    status: internal_capability
+  - id: gulf_localisation_package
+    priority: 6
+    status: expansion_after_german_proof
+decisions:
+  - id: D-001
+    status: confirmed
+    statement: Keep this repository separate from smartcoat-intelligence.
+  - id: D-002
+    status: confirmed
+    statement: Validate in Germany before international expansion.
+  - id: D-003
+    status: confirmed
+    statement: First inspection pilot is human-supervised shadow mode.
+  - id: D-004
+    status: confirmed
+    statement: Preserve model and hardware independence.
+  - id: D-005
+    status: confirmed
+    statement: Governed domain data and industrial knowledge form the moat.
+publication:
+  canonical_source: report/SmartCoat_AI_Intelligence_Report_2026.md
+  manifest: report/report_manifest.yaml
+  pdf: dist/SmartCoat_AI_Intelligence_Report_2026.pdf
+  language_order:
+    - english
+    - persian
