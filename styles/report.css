@@ -1,0 +1,162 @@
+@page {
+  size: A4;
+  margin: 22mm 18mm 20mm;
+  @bottom-center {
+    content: "SmartCoat AI Intelligence Report 2026  •  " counter(page) " / " counter(pages);
+    font-size: 8pt;
+    color: #64748b;
+  }
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: local("Noto Sans");
+}
+
+@font-face {
+  font-family: "Noto Sans Arabic";
+  src: local("Noto Sans Arabic");
+}
+
+:root {
+  --ink: #132238;
+  --muted: #5b6878;
+  --accent: #0f766e;
+  --accent-soft: #dff5f1;
+  --line: #d7dee8;
+  --paper: #ffffff;
+}
+
+body {
+  font-family: "Noto Sans", "Noto Sans Arabic", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 10.5pt;
+  line-height: 1.58;
+}
+
+.cover {
+  page: cover;
+  min-height: 235mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12mm;
+  border-left: 8mm solid var(--accent);
+  background: linear-gradient(135deg, #f5fbfa 0%, #ffffff 68%);
+}
+
+.cover .eyebrow {
+  color: var(--accent);
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  font-size: 9pt;
+  margin-bottom: 18mm;
+}
+
+.cover h1 {
+  font-size: 32pt;
+  line-height: 1.08;
+  margin: 0 0 8mm;
+}
+
+.cover h2 {
+  color: var(--muted);
+  font-size: 17pt;
+  font-weight: 400;
+  margin: 0 0 28mm;
+}
+
+.cover-meta {
+  border-top: 1px solid var(--line);
+  padding-top: 8mm;
+}
+
+.cover-meta p {
+  margin: 2mm 0;
+}
+
+.cover-note {
+  margin-top: auto;
+  color: var(--muted);
+  font-size: 9pt;
+}
+
+.report-body {
+  break-before: page;
+}
+
+h1, h2, h3, h4 {
+  color: var(--ink);
+  break-after: avoid;
+}
+
+h1 {
+  font-size: 22pt;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 3mm;
+  margin-top: 10mm;
+}
+
+h2 {
+  font-size: 15pt;
+  color: var(--accent);
+  margin-top: 8mm;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+p, li {
+  orphans: 3;
+  widows: 3;
+}
+
+blockquote {
+  margin: 6mm 0;
+  padding: 4mm 6mm;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+}
+
+code {
+  font-family: monospace;
+  font-size: 9pt;
+  background: #f1f5f9;
+  padding: 0.5mm 1mm;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 5mm 0;
+  font-size: 9pt;
+}
+
+th, td {
+  border: 1px solid var(--line);
+  padding: 2.5mm;
+  vertical-align: top;
+}
+
+th {
+  background: #eef7f5;
+}
+
+[dir="rtl"], .persian {
+  direction: rtl;
+  text-align: right;
+  font-family: "Noto Sans Arabic", "Noto Sans", sans-serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  break-inside: avoid;
+}
