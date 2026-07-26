@@ -22,6 +22,7 @@
   --ink: #132238;
   --muted: #5b6878;
   --accent: #0f766e;
+  --accent-dark: #0b4f4a;
   --accent-soft: #dff5f1;
   --line: #d7dee8;
   --paper: #ffffff;
@@ -31,8 +32,8 @@ body {
   font-family: "Noto Sans", "Noto Sans Arabic", sans-serif;
   color: var(--ink);
   background: var(--paper);
-  font-size: 10.5pt;
-  line-height: 1.58;
+  font-size: 10.2pt;
+  line-height: 1.55;
 }
 
 .cover {
@@ -48,21 +49,22 @@ body {
 
 .cover .eyebrow {
   color: var(--accent);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.13em;
   font-weight: 700;
-  font-size: 9pt;
+  font-size: 8.5pt;
   margin-bottom: 18mm;
 }
 
 .cover h1 {
-  font-size: 32pt;
+  font-size: 30pt;
   line-height: 1.08;
   margin: 0 0 8mm;
+  border: 0;
 }
 
 .cover h2 {
   color: var(--muted);
-  font-size: 17pt;
+  font-size: 16pt;
   font-weight: 400;
   margin: 0 0 28mm;
 }
@@ -86,26 +88,36 @@ body {
   break-before: page;
 }
 
+.page-break {
+  break-before: page;
+  height: 0;
+}
+
 h1, h2, h3, h4 {
   color: var(--ink);
   break-after: avoid;
 }
 
 h1 {
-  font-size: 22pt;
+  font-size: 21pt;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 3mm;
-  margin-top: 10mm;
+  margin-top: 8mm;
 }
 
 h2 {
-  font-size: 15pt;
+  font-size: 14.5pt;
   color: var(--accent);
   margin-top: 8mm;
 }
 
 h3 {
-  font-size: 12pt;
+  font-size: 11.5pt;
+  color: var(--accent-dark);
+}
+
+h4 {
+  font-size: 10.5pt;
 }
 
 p, li {
@@ -127,21 +139,33 @@ code {
   padding: 0.5mm 1mm;
 }
 
+pre {
+  background: #f1f5f9;
+  padding: 4mm;
+  white-space: pre-wrap;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 5mm 0;
-  font-size: 9pt;
+  font-size: 8.5pt;
+  break-inside: auto;
+}
+
+tr {
+  break-inside: avoid;
 }
 
 th, td {
   border: 1px solid var(--line);
-  padding: 2.5mm;
+  padding: 2.4mm;
   vertical-align: top;
 }
 
 th {
   background: #eef7f5;
+  color: var(--accent-dark);
 }
 
 [dir="rtl"], .persian {
@@ -150,13 +174,39 @@ th {
   font-family: "Noto Sans Arabic", "Noto Sans", sans-serif;
 }
 
+li[dir="rtl"] {
+  margin-right: 5mm;
+}
+
+.toc {
+  padding: 6mm;
+  background: #f7fafc;
+  border: 1px solid var(--line);
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 3mm;
+}
+
+.toc li {
+  margin: 1.2mm 0;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 img {
   max-width: 100%;
   height: auto;
   break-inside: avoid;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 8mm 0;
 }
