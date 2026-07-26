@@ -8,6 +8,12 @@ The project follows semantic versioning adapted for a living intelligence public
 - **Minor:** weekly intelligence update with substantive new analysis
 - **Patch:** corrections, source updates, formatting or minor revisions
 
+## [0.1.1] — 2026-07-26
+
+### Fixed
+
+- Triggered the first canonical PDF build after the workflow became available on the default branch.
+
 ## [0.1.0] — 2026-07-26
 
 ### Added
