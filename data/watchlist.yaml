@@ -1,74 +1,165 @@
-version: 0.1.0
+version: 1.0.0
 updated: 2026-07-26
-
+note: Detailed scored records are maintained in data/intelligence_registry.yaml.
 companies:
   materials_ai:
     - name: CuspAI
       region: United Kingdom
       status: active
-      rationale: Generative materials discovery and foundry model
+      priority: critical
+      rationale: End-to-end materials foundry and major funding signal
+      triggers:
+        - polymers
+        - coatings
+        - composites
+        - manufacturing_workflows
+    - name: Materials Nexus
+      region: United Kingdom
+      status: active
+      priority: high
+      rationale: Commercial materials discovery and optimisation
+    - name: Orbital Materials
+      region: United States
+      status: active
+      priority: high
+      rationale: Generative models and industrial materials applications
+  foundation_models:
+    - name: Mistral AI
+      region: European Union
+      status: active
+      priority: high
+      rationale: European sovereign and deployable model ecosystem
     - name: Prior Labs
       region: Europe
       status: active
+      priority: high
       rationale: Foundation models for tabular and industrial data
   industrial_ai:
     - name: Sereact
       region: Germany
       status: active
+      priority: medium
       rationale: Embodied and industrial AI
     - name: Merantix
       region: Germany
       status: active
+      priority: medium
       rationale: European AI venture building and ecosystem signal
-  edge_ai:
+    - name: Elm
+      region: Saudi Arabia
+      status: active
+      priority: high
+      rationale: Saudi digital-platform and partnership gateway
+  infrastructure:
+    - name: MGX
+      region: United Arab Emirates
+      status: active
+      priority: high
+      rationale: Capital deployment across semiconductors, infrastructure and AI applications
+    - name: SambaNova
+      region: United States
+      status: active
+      priority: medium
+      rationale: Alternative enterprise and sovereign AI compute
     - name: Axelera AI
       region: Netherlands
       status: active
+      priority: medium
       rationale: Edge inference hardware for computer vision
-
+  inspection:
+    - name: Cognex
+      region: United States
+      status: active
+      priority: critical
+      rationale: Major industrial machine-vision incumbent
+    - name: Erhardt+Leimer
+      region: Germany
+      status: active
+      priority: critical
+      rationale: Existing inspection-system ecosystem and potential AI evolution
 research_labs:
   - name: Fraunhofer
     region: Germany
+    priority: critical
     focus:
-      - advanced materials
-      - technical textiles
-      - industrial AI
-      - computer vision
-
-universities: []
-
-investors:
+      - advanced_materials
+      - technical_textiles
+      - industrial_ai
+      - computer_vision
+      - sensors
+  - name: DFKI
+    region: Germany
+    priority: high
+    focus:
+      - industrial_ai
+      - trustworthy_ai
+  - name: MBZUAI
+    region: United Arab Emirates
+    priority: medium
+    focus:
+      - foundation_models
+      - applied_ai
+  - name: Hamad Bin Khalifa University
+    region: Qatar
+    priority: medium
+    focus:
+      - ai_governance
+      - research_partnerships
+investors_and_programmes:
   - name: European Innovation Council
     region: European Union
-    type: public deep-tech funding
-
-programmes:
-  - name: Horizon Europe
+    priority: critical
+    type: public_deep_tech_funding
+  - name: Horizon Europe Cluster 4
     region: European Union
-    focus:
-      - advanced materials
-      - applied AI
-      - industrial digitalisation
-  - name: Apply AI
-    region: European Union
-    focus:
-      - sector-specific AI adoption
-
+    priority: critical
+    type: research_and_innovation_funding
+  - name: MGX
+    region: United Arab Emirates
+    priority: high
+    type: ai_investor_operator
+  - name: Qatar Investment Authority
+    region: Qatar
+    priority: medium
+    type: sovereign_investor
+  - name: Public Investment Fund
+    region: Saudi Arabia
+    priority: medium
+    type: sovereign_investor
 technologies:
-  - name: Materials foundation models
-    maturity: emerging
-  - name: Autonomous laboratories
-    maturity: emerging
-  - name: Physics-informed machine learning
+  - name: Open-world defect detection
     maturity: developing
-  - name: Industrial knowledge graphs
+    priority: critical
+  - name: Defect severity grading
     maturity: developing
-  - name: Explainable surface inspection
+    priority: critical
+  - name: Anomaly detection with human review
     maturity: deployable
+    priority: critical
+  - name: Synthetic defect generation
+    maturity: developing
+    priority: high
   - name: Edge AI inspection
     maturity: deployable
-
+    priority: critical
+  - name: Materials foundation models
+    maturity: developing
+    priority: critical
+  - name: Industrial knowledge graphs
+    maturity: developing
+    priority: critical
+  - name: Autonomous laboratories
+    maturity: emerging
+    priority: medium
+  - name: Physics-informed machine learning
+    maturity: developing
+    priority: high
+  - name: Agentic industrial workflows
+    maturity: emerging
+    priority: high
 review_rules:
   - Verify status and claims from current sources before publication.
   - Update existing records rather than creating duplicates.
   - Record important changes in report/CHANGELOG.md.
+  - Promote only high-value items into the canonical PDF.
+  - Review critical items weekly and medium-priority items monthly.
