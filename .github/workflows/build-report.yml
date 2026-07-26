@@ -1,0 +1,60 @@
+name: Build Living SmartCoat PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "report/**"
+      - "data/**"
+      - "scripts/**"
+      - "styles/**"
+      - "requirements.txt"
+      - ".github/workflows/build-report.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system fonts and libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-core fonts-noto-extra libpango-1.0-0 libpangoft2-1.0-0
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Build PDF
+        run: python scripts/build_report.py
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmartCoat-AI-Intelligence-Report-2026
+          path: dist/SmartCoat_AI_Intelligence_Report_2026.pdf
+          if-no-files-found: error
+
+      - name: Commit refreshed living PDF
+        run: |
+          git config user.name "smartcoat-report-bot"
+          git config user.email "smartcoat-report-bot@users.noreply.github.com"
+          git add dist/SmartCoat_AI_Intelligence_Report_2026.pdf
+          if git diff --cached --quiet; then
+            echo "PDF is already current."
+          else
+            git commit -m "build: refresh living intelligence PDF"
+            git push
+          fi

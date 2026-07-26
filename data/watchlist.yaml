@@ -1,0 +1,74 @@
+version: 0.1.0
+updated: 2026-07-26
+
+companies:
+  materials_ai:
+    - name: CuspAI
+      region: United Kingdom
+      status: active
+      rationale: Generative materials discovery and foundry model
+    - name: Prior Labs
+      region: Europe
+      status: active
+      rationale: Foundation models for tabular and industrial data
+  industrial_ai:
+    - name: Sereact
+      region: Germany
+      status: active
+      rationale: Embodied and industrial AI
+    - name: Merantix
+      region: Germany
+      status: active
+      rationale: European AI venture building and ecosystem signal
+  edge_ai:
+    - name: Axelera AI
+      region: Netherlands
+      status: active
+      rationale: Edge inference hardware for computer vision
+
+research_labs:
+  - name: Fraunhofer
+    region: Germany
+    focus:
+      - advanced materials
+      - technical textiles
+      - industrial AI
+      - computer vision
+
+universities: []
+
+investors:
+  - name: European Innovation Council
+    region: European Union
+    type: public deep-tech funding
+
+programmes:
+  - name: Horizon Europe
+    region: European Union
+    focus:
+      - advanced materials
+      - applied AI
+      - industrial digitalisation
+  - name: Apply AI
+    region: European Union
+    focus:
+      - sector-specific AI adoption
+
+technologies:
+  - name: Materials foundation models
+    maturity: emerging
+  - name: Autonomous laboratories
+    maturity: emerging
+  - name: Physics-informed machine learning
+    maturity: developing
+  - name: Industrial knowledge graphs
+    maturity: developing
+  - name: Explainable surface inspection
+    maturity: deployable
+  - name: Edge AI inspection
+    maturity: deployable
+
+review_rules:
+  - Verify status and claims from current sources before publication.
+  - Update existing records rather than creating duplicates.
+  - Record important changes in report/CHANGELOG.md.
