@@ -1,145 +1,110 @@
 ---
 title: "SmartCoat AI Intelligence Report 2026"
-subtitle: "AI, Materials Intelligence, Computer Vision & Industrial Innovation"
+subtitle: "Strategic Intelligence Office — AI, Materials, Vision and Industrial Innovation"
 author: "SmartCoat Intelligence"
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-07-26"
-status: "Foundation Edition"
+status: "Initial Operational Edition — One-Month Intelligence Cycle Complete"
 ---
 
-# Executive Summary
+# Executive Brief
 
-This living report tracks the most consequential developments affecting SmartCoat across artificial intelligence, materials discovery, computer vision, technical textiles, industrial software, startups, venture capital, regulation and research.
+## Purpose
+
+This publication is the executive output of an independent Strategic Intelligence Office maintained in this repository. It synthesises verified external intelligence into cumulative knowledge, product hypotheses, risks and recommended decisions for SmartCoat.
+
+This repository remains separate from `smartcoat-intelligence`. It contains public-source research and strategy—not application code, confidential formulations, customer data or production credentials.
 
 ## Current strategic thesis
 
-SmartCoat should develop as a traceable industrial decision system built on proprietary materials, formulation, process, inspection and test data. Its defensibility should come from governed data, ontology, industrial knowledge, validated workflows and measurable production outcomes rather than dependence on any single foundation model.
+SmartCoat should become a traceable industrial decision system built on governed materials, formulation, process, inspection and test evidence. Its defensibility should come from ontology, domain data, validated workflows and measurable factory outcomes rather than ownership of a generic foundation model.
 
-## Key opportunities
+## One-month conclusion
 
-- AI-assisted formulation and materials selection
-- Closed-loop experiment learning
-- Industrial computer vision for surface inspection
-- Knowledge-graph-supported engineering decisions
-- Predictive quality and process optimisation
-- Private and model-independent industrial agents
-- Advanced-materials and dual-use funding programmes
+The period from 26 June to 26 July 2026 strengthens the SmartCoat thesis:
 
-## Key threats
+- Germany is making industrial AI a national manufacturing priority.
+- Materials AI is becoming a heavily funded platform market.
+- Open-world defect detection and severity grading are emerging as essential inspection capabilities.
+- The UAE, Saudi Arabia and Qatar are building differentiated AI investment, infrastructure and governance ecosystems.
+- EU regulation and advanced-materials policy favour systems with traceability, sovereignty and trusted deployment.
 
-- Poor data quality and incomplete experiment capture
-- Overdependence on external model or cloud providers
-- Untraceable recommendations in regulated workflows
-- Weak security boundaries for industrial agents
-- Fragmented R&D, QC, ERP and production evidence
+## Decisions
 
-## Strategic recommendations
+1. Keep this intelligence repository fully independent from the SmartCoat product repository.
+2. Use Germany as the first industrial validation market.
+3. Prioritise a human-supervised, shadow-mode textile inspection pilot.
+4. Require unknown-defect handling and operational severity grading.
+5. Preserve model, cloud and accelerator independence.
+6. Treat the knowledge graph and experiment-data foundation as the core strategic moat.
+7. Delay major Gulf fundraising or sales outreach until a German proof point exists.
 
-1. Complete the governed materials and experiment data foundation.
-2. Establish traceability from raw material and formulation to production, inspection and test result.
-3. Pilot one measurable computer-vision or predictive-quality use case.
-4. Preserve model and hardware independence.
-5. Treat security, auditability and human approval as core architecture.
+## Immediate priorities
 
-# 1. AI for Materials Discovery
+### Priority 1 — Explainable Textile Inspection Copilot
 
-This chapter tracks materials foundation models, generative chemistry, autonomous laboratories, physics-informed AI, simulation, synthesis planning and closed-loop discovery platforms.
+Validate whether an AI layer can reduce false alarms, route unknown anomalies and grade severity using existing line-scan inspection data.
 
-## SmartCoat relevance
+### Priority 2 — Experiment Knowledge Capture Gatekeeper
 
-The long-term target is a governed propose–simulate–test–learn loop linking formulation suggestions to laboratory evidence and production performance.
+Improve the quality and completeness of laboratory, production and QC evidence before attempting advanced formulation AI.
 
-# 2. Computer Vision
+### Priority 3 — Materials and Supplier Resilience Graph
 
-This chapter covers industrial inspection, surface-defect detection, segmentation, anomaly detection, vision transformers, edge AI, explainability and multi-camera systems.
+Connect raw materials, suppliers, alternatives, formulations, processes, tests and commercial constraints.
 
-## SmartCoat relevance
+## Key performance questions
 
-Priority applications include technical-textile surface inspection, defect classification, false-alarm reduction, process-linked defect analysis and explainable quality decisions.
+- Can unknown defects be detected without unacceptable false alarms?
+- Can inspectors agree on severity labels strongly enough to train a model?
+- Can visual evidence be linked to process and final performance?
+- Can SmartCoat demonstrate measurable value within a 90-day shadow pilot?
+- Can the system meet EU expectations for human oversight, traceability and change control?
 
-# 3. Technical Textiles & Advanced Materials
+# خلاصه مدیریتی فارسی
 
-Coverage includes coatings, high-temperature materials, composites, fibres, recycling, sustainable materials, research institutes, EU programmes and industrial process innovation.
+این گزارش خروجی یک دفتر مستقل اطلاعات راهبردی است که در همین ریپازیتوری نگهداری می‌شود و با ریپازیتوری اصلی `smartcoat-intelligence` ترکیب نخواهد شد.
 
-## SmartCoat relevance
+نتایج یک ماه اخیر نشان می‌دهد که مسیر SmartCoat صحیح است، اما ترتیب اجرا اهمیت زیادی دارد. آلمان باید محل اولین اعتبارسنجی صنعتی باشد. اولین محصول قابل‌آزمایش، یک لایه هوشمند برای بازرسی پارچه است که در حالت Shadow Mode کار کند، خطاهای ناشناخته را جدا کند، شدت خطا را پیشنهاد دهد و تصمیم نهایی را به انسان واگذار کند.
 
-Every material development should be connected to raw-material identity, supplier and batch, formulation, process parameters, environmental conditions, test methods and validated performance.
+مزیت رقابتی SmartCoat یک مدل عمومی AI نیست. مزیت اصلی، اتصال داده مواد اولیه، فرمول، فرایند، تصویر، تصمیم QC و نتیجه آزمون در یک ساختار قابل‌ردیابی است.
 
-# 4. Industrial AI
+## تصمیم‌های اصلی
 
-This chapter monitors digital twins, living factories, industrial knowledge graphs, agents, predictive quality, predictive maintenance and factory AI platforms.
+۱. این ریپازیتوری کاملاً جدا از ریپازیتوری نرم‌افزاری SmartCoat باقی بماند.  
+۲. آلمان بازار اول برای پایلوت و اعتبارسنجی باشد.  
+۳. پایلوت بازرسی در مرحله اول فقط پیشنهاد دهد و تولید را کنترل نکند.  
+۴. شناسایی خطای ناشناخته و درجه‌بندی شدت جزو الزامات اصلی باشد.  
+۵. معماری به یک مدل، Cloud یا سخت‌افزار خاص وابسته نباشد.  
+۶. Knowledge Graph و داده ساختاریافته آزمایش‌ها هسته مزیت رقابتی باشند.  
+۷. ورود جدی به بازارهای خلیج فارس پس از ایجاد یک نمونه موفق آلمانی انجام شود.
 
-## SmartCoat relevance
+# Publication Map
 
-SmartCoat’s architecture should connect R&D, QC, ERP, production, maintenance, purchasing, sales, sensors, vision systems and human decisions without removing human supervisory control.
+The complete living PDF is assembled automatically from:
 
-# 5. European Startup & Venture Capital
+1. Monthly intelligence review
+2. Germany, EU, U.S., UAE, Qatar and Saudi regional analysis
+3. Company and competitor intelligence
+4. Research-paper assessments
+5. Technology radar
+6. Funding and partnership radar
+7. Regulatory and standards radar
+8. Product and startup opportunities
+9. 90-day action roadmap
+10. Risks, decisions and assumptions
+11. ChatGPT operating and editorial governance
 
-This chapter tracks relevant companies, funding rounds, acquisitions, partnerships and product launches, with emphasis on scientific AI, industrial AI, physical AI and materials intelligence.
+# How to read this report
 
-# 6. Research Papers
-
-Each reviewed paper must include:
-
-- Objective
-- Method
-- Data and experimental setting
-- Results
-- Limitations
-- SmartCoat relevance
-- Potential implementation
-- Source and publication date
-
-# 7. SmartCoat Insights
-
-Every major intelligence item should conclude with:
-
-- Potential application
-- Possible product feature
-- Potential startup opportunity
-- Competitive threat
-- Recommended action
-- Confidence level
-
-# 8. Roadmap Ideas
-
-Initial roadmap themes:
-
-- AI formulation optimiser
-- Experiment knowledge capture gatekeeper
-- Materials and supplier knowledge graph
-- Autonomous-laboratory readiness layer
-- Explainable inspection models
-- Predictive-quality engine
-- Model-independent industrial agent layer
-- Sustainability and supply-risk intelligence
-
-# 9. Watch List
-
-The structured watch list is maintained in `data/watchlist.yaml` and includes companies, laboratories, universities, investors, programmes and technologies.
-
-# 10. Methodology and Governance
-
-## Inclusion criteria
-
-An item is included when it has material strategic relevance to SmartCoat’s R&D, industrial AI, computer vision, materials intelligence, market development, funding or competitive landscape.
-
-## Update policy
-
-- Revise existing entries when developments change their meaning.
-- Merge duplicates instead of accumulating repeated summaries.
-- Mark uncertain claims clearly.
-- Retire stale items while preserving change history.
-- Prefer primary and authoritative sources.
-- Separate event date from publication date.
-- Keep English first and Persian second for every substantive intelligence entry.
-
-## Version policy
-
-- Patch release: corrections, source improvements and minor updates.
-- Minor release: new weekly intelligence and meaningful section updates.
-- Major release: structural redesign, annual transition or major strategic reassessment.
+- Use the **Monthly Intelligence Review** for the most consequential changes.
+- Use **Regional Intelligence** for market-entry and ecosystem choices.
+- Use **Company Intelligence** to monitor competitors and partners.
+- Use **Research Intelligence** to define experiments rather than copy benchmark claims.
+- Use the **Technology Radar** to identify priority shifts.
+- Use **Strategy** documents for decisions and action tracking.
+- Use the **Changelog** to understand what changed between versions.
 
 # Version History
 
-See `report/CHANGELOG.md` for the complete change log.
+See `report/CHANGELOG.md` for the complete change history.
