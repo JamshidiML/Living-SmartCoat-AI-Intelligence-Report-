@@ -8,6 +8,32 @@ The project follows semantic versioning adapted for a living intelligence public
 - **Minor:** weekly or monthly intelligence update with substantive new analysis
 - **Patch:** corrections, source updates, formatting or build revisions
 
+## [1.1.0] — 2026-08-02
+
+### Added
+
+- Weekly intelligence review for 27 July–2 August 2026
+- EU AI Omnibus implementation analysis and a pilot evidence-pack requirement
+- EU AI gigafactory procurement analysis and a model/runtime portability acceptance test
+- U.S. semiconductor R&D incentive analysis and accelerator-dependency controls
+- NSF AI-for-science data-infrastructure analysis and an end-to-end experiment-lineage acceptance test
+- Updated assessment of open-world fabric-defect detection
+- UAE investment signal and retained Germany-first market sequencing
+
+### Changed
+
+- Updated the executive brief to version 1.1.0.
+- Added the weekly review to the generated PDF manifest.
+- Raised compliance evidence, runtime portability and experiment lineage in the action sequence.
+- Retained Qatar and Saudi rankings rather than adding low-confidence filler items.
+
+### Strategic decisions
+
+- Compliance simplification does not remove governance obligations.
+- SmartCoat will remain independent of any single model, cloud, accelerator or runtime.
+- AI-for-materials work will follow—not precede—structured experiment lineage.
+- Gulf expansion remains contingent on measurable German pilot evidence.
+
 ## [1.0.0] — 2026-07-26
 
 ### Added
