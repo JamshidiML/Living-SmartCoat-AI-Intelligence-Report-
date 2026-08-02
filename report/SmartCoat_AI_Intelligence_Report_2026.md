@@ -2,9 +2,9 @@
 title: "SmartCoat AI Intelligence Report 2026"
 subtitle: "Strategic Intelligence Office — AI, Materials, Vision and Industrial Innovation"
 author: "SmartCoat Intelligence"
-version: "1.0.0"
-updated: "2026-07-26"
-status: "Initial Operational Edition — One-Month Intelligence Cycle Complete"
+version: "1.1.0"
+updated: "2026-08-02"
+status: "Operational Edition — Weekly Intelligence Cycle"
 ---
 
 # Executive Brief
@@ -19,15 +19,15 @@ This repository remains separate from `smartcoat-intelligence`. It contains publ
 
 SmartCoat should become a traceable industrial decision system built on governed materials, formulation, process, inspection and test evidence. Its defensibility should come from ontology, domain data, validated workflows and measurable factory outcomes rather than ownership of a generic foundation model.
 
-## One-month conclusion
+## Weekly update — 2 August 2026
 
-The period from 26 June to 26 July 2026 strengthens the SmartCoat thesis:
+The 27 July–2 August review strengthens three requirements without changing the Germany-first product sequence:
 
-- Germany is making industrial AI a national manufacturing priority.
-- Materials AI is becoming a heavily funded platform market.
-- Open-world defect detection and severity grading are emerging as essential inspection capabilities.
-- The UAE, Saudi Arabia and Qatar are building differentiated AI investment, infrastructure and governance ecosystems.
-- EU regulation and advanced-materials policy favour systems with traceability, sovereignty and trusted deployment.
+- **Compliance-by-design:** the EU AI Omnibus expands supervised experimentation and regulatory-sandbox access while retaining safety obligations. Every pilot therefore needs a versioned evidence pack.
+- **Compute portability:** EU gigafactory procurement and U.S. semiconductor incentives reinforce a future with multiple sovereign clouds, accelerators and runtimes. SmartCoat must remain hardware-, model- and cloud-independent.
+- **Data infrastructure before autonomous R&D:** new U.S. AI-for-science infrastructure funding confirms that linked, reusable experiment evidence is a prerequisite for advanced materials intelligence.
+- **Open-world inspection:** July research continues to support unknown-anomaly routing and incremental learning, but production applicability must be validated on line-scan technical-textile data.
+- **Gulf sequencing remains unchanged:** the UAE remains the highest-priority Gulf investment market, while Qatar and Saudi Arabia retain their differentiated roles. Active expansion remains contingent on German pilot evidence.
 
 ## Decisions
 
@@ -35,9 +35,10 @@ The period from 26 June to 26 July 2026 strengthens the SmartCoat thesis:
 2. Use Germany as the first industrial validation market.
 3. Prioritise a human-supervised, shadow-mode textile inspection pilot.
 4. Require unknown-defect handling and operational severity grading.
-5. Preserve model, cloud and accelerator independence.
+5. Preserve model, cloud, accelerator and runtime independence.
 6. Treat the knowledge graph and experiment-data foundation as the core strategic moat.
-7. Delay major Gulf fundraising or sales outreach until a German proof point exists.
+7. Add a compliance evidence pack and portability acceptance test to the first pilot.
+8. Delay major Gulf fundraising or sales outreach until a German proof point exists.
 
 ## Immediate priorities
 
@@ -53,21 +54,26 @@ Improve the quality and completeness of laboratory, production and QC evidence b
 
 Connect raw materials, suppliers, alternatives, formulations, processes, tests and commercial constraints.
 
+### Priority 4 — AI Pilot Evidence Pack
+
+Create a reusable record for intended use, prohibited use, data provenance, model and preprocessing version, evaluation evidence, human oversight, incidents and changes.
+
 ## Key performance questions
 
 - Can unknown defects be detected without unacceptable false alarms?
 - Can inspectors agree on severity labels strongly enough to train a model?
 - Can visual evidence be linked to process and final performance?
 - Can SmartCoat demonstrate measurable value within a 90-day shadow pilot?
+- Can the same pipeline be reproduced on an alternative inference runtime?
 - Can the system meet EU expectations for human oversight, traceability and change control?
 
 # خلاصه مدیریتی فارسی
 
 این گزارش خروجی یک دفتر مستقل اطلاعات راهبردی است که در همین ریپازیتوری نگهداری می‌شود و با ریپازیتوری اصلی `smartcoat-intelligence` ترکیب نخواهد شد.
 
-نتایج یک ماه اخیر نشان می‌دهد که مسیر SmartCoat صحیح است، اما ترتیب اجرا اهمیت زیادی دارد. آلمان باید محل اولین اعتبارسنجی صنعتی باشد. اولین محصول قابل‌آزمایش، یک لایه هوشمند برای بازرسی پارچه است که در حالت Shadow Mode کار کند، خطاهای ناشناخته را جدا کند، شدت خطا را پیشنهاد دهد و تصمیم نهایی را به انسان واگذار کند.
+تحولات هفته ۲۷ ژوئیه تا ۲ اوت ۲۰۲۶ ترتیب اصلی اجرای SmartCoat را تغییر نمی‌دهد، اما سه الزام را تقویت می‌کند: انطباق قانونی از ابتدای طراحی، قابلیت انتقال میان مدل و سخت‌افزارهای مختلف، و ساخت زیرساخت داده آزمایش پیش از حرکت به سمت R&D خودکار.
 
-مزیت رقابتی SmartCoat یک مدل عمومی AI نیست. مزیت اصلی، اتصال داده مواد اولیه، فرمول، فرایند، تصویر، تصمیم QC و نتیجه آزمون در یک ساختار قابل‌ردیابی است.
+پایلوت اول همچنان باید در آلمان، در حالت Shadow Mode و تحت کنترل انسان اجرا شود. علاوه بر تشخیص خطاهای ناشناخته و سطح‌بندی شدت، دو خروجی جدید لازم است: یک پرونده مستندات قانونی و فنی برای هر پایلوت، و یک آزمون قابل‌تکرار برای اجرای مدل روی Runtime جایگزین.
 
 ## تصمیم‌های اصلی
 
@@ -75,29 +81,33 @@ Connect raw materials, suppliers, alternatives, formulations, processes, tests a
 ۲. آلمان بازار اول برای پایلوت و اعتبارسنجی باشد.  
 ۳. پایلوت بازرسی در مرحله اول فقط پیشنهاد دهد و تولید را کنترل نکند.  
 ۴. شناسایی خطای ناشناخته و درجه‌بندی شدت جزو الزامات اصلی باشد.  
-۵. معماری به یک مدل، Cloud یا سخت‌افزار خاص وابسته نباشد.  
+۵. معماری به یک مدل، Cloud، شتاب‌دهنده یا Runtime خاص وابسته نباشد.  
 ۶. Knowledge Graph و داده ساختاریافته آزمایش‌ها هسته مزیت رقابتی باشند.  
-۷. ورود جدی به بازارهای خلیج فارس پس از ایجاد یک نمونه موفق آلمانی انجام شود.
+۷. برای هر پایلوت یک Evidence Pack و آزمون Portability ایجاد شود.  
+۸. ورود جدی به بازارهای خلیج فارس پس از ایجاد یک نمونه موفق آلمانی انجام شود.
 
 # Publication Map
 
 The complete living PDF is assembled automatically from:
 
-1. Monthly intelligence review
-2. Germany, EU, U.S., UAE, Qatar and Saudi regional analysis
-3. Company and competitor intelligence
-4. Research-paper assessments
-5. Technology radar
-6. Funding and partnership radar
-7. Regulatory and standards radar
-8. Product and startup opportunities
-9. 90-day action roadmap
-10. Risks, decisions and assumptions
-11. ChatGPT operating and editorial governance
+1. Executive brief
+2. Monthly intelligence review
+3. Dated weekly intelligence reviews
+4. Germany, EU, U.S., UAE, Qatar and Saudi regional analysis
+5. Company and competitor intelligence
+6. Research-paper assessments
+7. Technology radar
+8. Funding and partnership radar
+9. Regulatory and standards radar
+10. Product and startup opportunities
+11. 90-day action roadmap
+12. Risks, decisions and assumptions
+13. ChatGPT operating and editorial governance
 
 # How to read this report
 
-- Use the **Monthly Intelligence Review** for the most consequential changes.
+- Use the **latest Weekly Intelligence Review** for new evidence and priority changes.
+- Use the **Monthly Intelligence Review** for consolidated trends.
 - Use **Regional Intelligence** for market-entry and ecosystem choices.
 - Use **Company Intelligence** to monitor competitors and partners.
 - Use **Research Intelligence** to define experiments rather than copy benchmark claims.
