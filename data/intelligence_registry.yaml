@@ -1,9 +1,9 @@
 schema_version: 1.0
-report_version: 1.0.0
-updated: 2026-07-26
+report_version: 1.1.0
+updated: 2026-08-02
 review_window:
-  start: 2026-06-26
-  end: 2026-07-26
+  start: 2026-07-27
+  end: 2026-08-02
 repository_boundary:
   independent_from: JamshidiML/smartcoat-intelligence
   allowed_content:
@@ -22,27 +22,27 @@ regions:
   - id: germany
     priority: 1
     role: pilot_and_validation
-    next_review: 2026-08-02
+    next_review: 2026-08-09
   - id: european_union
     priority: 2
     role: funding_regulation_and_scaling
-    next_review: 2026-08-02
+    next_review: 2026-08-09
   - id: united_states
     priority: 3
     role: technology_and_scientific_ai_ecosystem
-    next_review: 2026-08-02
+    next_review: 2026-08-09
   - id: united_arab_emirates
     priority: 4
     role: investment_and_advanced_manufacturing_expansion
-    next_review: 2026-08-02
+    next_review: 2026-08-09
   - id: saudi_arabia
     priority: 5
     role: partner_led_industrial_expansion
-    next_review: 2026-08-02
+    next_review: 2026-08-09
   - id: qatar
     priority: 6
     role: research_governance_and_sovereign_ai_partnership
-    next_review: 2026-08-02
+    next_review: 2026-08-09
 companies:
   - id: cuspai
     category: materials_ai
@@ -79,47 +79,74 @@ companies:
     strategic_relevance: 3
     confidence: high
     review_trigger: manufacturing_or_industrial_ai_programme
+  - id: safe_superintelligence
+    category: frontier_models
+    region: united_states
+    status: monitor
+    strategic_relevance: 2
+    confidence: medium_high
+    review_trigger: industrial_or_scientific_application
 technologies:
   - id: open_world_defect_detection
     movement: accelerating
     maturity: developing
     impact: 5
     action: experiment
+    next_review: 2026-08-09
   - id: anomaly_detection_human_review
     movement: accelerating
     maturity: deployable
     impact: 5
     action: pilot
+    next_review: 2026-08-09
   - id: defect_severity_grading
     movement: growing
     maturity: developing
     impact: 5
     action: define_ontology
+    next_review: 2026-08-09
   - id: synthetic_defect_generation
     movement: growing
     maturity: developing
     impact: 4
     action: controlled_experiment
+    next_review: 2026-08-16
   - id: edge_ai_inspection
     movement: strong
     maturity: deployable
     impact: 5
     action: pilot
+    next_review: 2026-08-09
   - id: industrial_knowledge_graphs
     movement: growing
     maturity: developing
     impact: 5
     action: adopt_foundation
+    next_review: 2026-08-09
   - id: agentic_industrial_workflows
     movement: accelerating
     maturity: emerging
     impact: 4
     action: sandbox_only
+    next_review: 2026-08-16
   - id: ai_act_compliance_tooling
     movement: urgent
     maturity: deployable
     impact: 5
     action: adopt_governance
+    next_review: 2026-08-09
+  - id: model_runtime_portability
+    movement: accelerating
+    maturity: deployable
+    impact: 5
+    action: add_acceptance_test
+    next_review: 2026-08-09
+  - id: ai_science_data_infrastructure
+    movement: accelerating
+    maturity: developing
+    impact: 5
+    action: prototype_lineage
+    next_review: 2026-08-09
 opportunities:
   - id: textile_inspection_copilot
     priority: 1
@@ -130,14 +157,17 @@ opportunities:
   - id: materials_supplier_resilience_graph
     priority: 3
     status: architecture_ready_concept
-  - id: fire_protection_formulation_planner
-    priority: 4
-    status: research_concept
   - id: industrial_ai_compliance_pack
-    priority: 5
+    priority: 4
     status: internal_capability
-  - id: gulf_localisation_package
+  - id: model_portability_validation_pack
+    priority: 5
+    status: pilot_requirement
+  - id: fire_protection_formulation_planner
     priority: 6
+    status: research_concept
+  - id: gulf_localisation_package
+    priority: 7
     status: expansion_after_german_proof
 decisions:
   - id: D-001
@@ -150,14 +180,21 @@ decisions:
     status: confirmed
     statement: First inspection pilot is human-supervised shadow mode.
   - id: D-004
-    status: confirmed
-    statement: Preserve model and hardware independence.
+    status: expanded
+    statement: Preserve model, cloud, accelerator and runtime independence.
   - id: D-005
     status: confirmed
     statement: Governed domain data and industrial knowledge form the moat.
+  - id: D-006
+    status: confirmed
+    statement: Require a versioned compliance evidence pack for every AI pilot.
+  - id: D-007
+    status: confirmed
+    statement: Require an end-to-end experiment-lineage acceptance test before formulation AI.
 publication:
   canonical_source: report/SmartCoat_AI_Intelligence_Report_2026.md
   manifest: report/report_manifest.yaml
+  latest_weekly: intelligence/weekly/2026-08-02_WEEKLY_INTELLIGENCE.md
   pdf: dist/SmartCoat_AI_Intelligence_Report_2026.pdf
   language_order:
     - english
