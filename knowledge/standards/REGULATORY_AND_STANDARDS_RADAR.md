@@ -1,84 +1,77 @@
-# Regulatory and Standards Radar — July 2026
+# Regulatory and Standards Radar — 9 August 2026
 
-## 1. Germany implements the EU AI Act
-
-### English
-
-Germany completed the national legislative process for implementing the European AI Act in July 2026. The framework designates national authorities and creates the domestic enforcement structure. Separate EU AI Act obligations become applicable in stages, with a major milestone on 2 August 2026 covering transparency requirements and many high-risk-system provisions.
-
-**SmartCoat implication:** A factory inspection model may not automatically be a high-risk system, but connected use cases can create higher obligations depending on purpose and impact. SmartCoat should maintain an AI-system inventory, intended-use statement, model/data version, human-oversight design, incident log and change-control record for every pilot.
-
-### فارسی
-
-آلمان فرایند ملی اجرای AI Act اروپا را تکمیل کرده است و بخش مهمی از الزامات از ۲ اوت ۲۰۲۶ وارد مرحله اجرا می‌شود. حتی اگر مدل بازرسی کارخانه مستقیماً High-Risk نباشد، هدف استفاده و اثر تصمیم می‌تواند سطح تعهدات را تغییر دهد.
-
-**اقدام:** برای هر پایلوت یک پرونده شامل هدف، داده، نسخه مدل، نظارت انسانی، لاگ خطا و مدیریت تغییر ایجاد شود.
-
-**Sources:** [German Federal Government](https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/umsetzung-ki-verordnung-2406638) · [Bundesnetzagentur implementation timeline](https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/01_Objectives/start.html)
-
----
-
-## 2. Germany refocuses Platform Industrie 4.0 on industrial AI
+## 1. EU AI Act — operational enforcement milestone
 
 ### English
 
-Germany's economic and research ministries, industry and Fraunhofer are repositioning Platform Industrie 4.0 around industrial AI across infrastructure, data, foundation models and applications. The declared target is to make data- and AI-based applications standard across German industry by 2030.
+From 2 August 2026, AI Act Article 50 transparency obligations apply and the European Commission's enforcement powers for advanced general-purpose AI models are active. The AI Omnibus has adjusted the schedule for major high-risk obligations, with stand-alone high-risk rules applying from 2 December 2027 and rules for AI embedded in regulated physical products from 2 August 2028. Germany's national implementation framework is also in force.
 
-**SmartCoat implication:** The project's architecture aligns with the emerging German policy stack: governed industrial data, interoperable knowledge, AI applications and technological sovereignty. Partnership with applied-research institutes and Mittelstand networks is likely more valuable than positioning SmartCoat as a generic software startup.
-
-### فارسی
-
-پلتفرم Industrie 4.0 آلمان اکنون به‌طور مستقیم روی AI صنعتی، داده، زیرساخت، مدل‌های پایه و کاربرد صنعتی متمرکز می‌شود. این جهت‌گیری با معماری SmartCoat هم‌راستا است.
-
-**Source:** [Federal Ministry for Economic Affairs — Platform Industrie 4.0 and industrial AI](https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2026/07/20260703-pi4-industrielle-ki.html)
-
----
-
-## 3. EU Advanced Materials Act preparation
-
-### English
-
-The European Commission is preparing an Advanced Materials Act intended to strengthen research, scale-up, manufacturing capacity, circularity and reduced dependency on critical raw materials.
-
-**SmartCoat implication:** Future materials intelligence should represent sustainability, critical-material exposure, recyclability, production scale, safety and European supply-chain dependency—not only laboratory performance.
+**SmartCoat implication:** Compliance should be treated as an engineering evidence problem. Every pilot should generate an AI-system inventory entry, intended/prohibited-use statement, dataset/model/preprocessing versions, decision-boundary matrix, human-review evidence, incidents and change history.
 
 ### فارسی
 
-Advanced Materials Act اروپا قرار است توسعه، مقیاس‌پذیری، تولید، چرخش‌پذیری و کاهش وابستگی به مواد بحرانی را تقویت کند. بنابراین آنتولوژی مواد SmartCoat باید شاخص‌های پایداری و ریسک تأمین را نیز پوشش دهد.
+از ۲ اوت ۲۰۲۶ بخش مهمی از AI Act وارد مرحله اجرایی شده است. برای SmartCoat، انطباق باید به‌صورت داده و مدرک قابل‌ردیابی در خود چرخه توسعه ساخته شود، نه در پایان پروژه.
 
-**Source:** [European Commission — Towards the Advanced Materials Act](https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/chemicals-and-advanced-materials/towards-advanced-materials-act_en)
+**Sources:**
+- https://ai-act-service-desk.ec.europa.eu/en/faq
+- https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act
+- https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-2448548
+
+---
+
+## 2. AI regulatory sandboxes
+
+EU guidance describes regulatory sandboxes as supervised environments for development and testing where competent authorities can provide legal and technical guidance. SmartCoat should monitor German access routes once a production-relevant pilot has a defined intended use and evidence package.
+
+**SmartCoat implication:** A sandbox is useful only after the system boundary, data sources, human authority and measurable pilot objectives are clear.
+
+**Source:** https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/what-are-ai-regulatory-sandboxes-and-how-can-providersdeployers-participate
 
 ---
 
-## 4. Qatar launches Global Alliance for AI Ethics
+## 3. European AI-chip evaluation and sovereignty
 
-### English
+The Chips Joint Undertaking has active calls for AI-chip demonstrators and common compute-evaluation infrastructure. These programmes are intended to benchmark European AI hardware and strengthen regional compute sovereignty.
 
-Qatar announced the Global Alliance for AI Ethics through Hamad Bin Khalifa University during the UN Global Dialogue on AI Governance. The initiative signals a regional strategy combining AI investment with governance and international convening.
+**SmartCoat implication:** Treat portability as part of compliance and operational resilience. Record hardware/runtime dependencies in the AI system card and validate a second execution path.
 
-**SmartCoat implication:** A Qatar partnership proposition should emphasise trusted industrial AI, explainability, human oversight and research collaboration rather than only productivity claims.
-
-### فارسی
-
-قطر ائتلاف جهانی اخلاق AI را راه‌اندازی کرده است. این موضوع نشان می‌دهد که فرصت‌های قطر فقط زیرساخت و سرمایه نیست؛ حاکمیت و AI قابل‌اعتماد نیز بخش مهم راهبرد این کشور است.
-
-**Source:** [Qatar MCIT — Global Alliance for AI Ethics](https://www.mcit.gov.qa/en/News/State-of-Qatar-Announces-the-Launch-of-the-Global-Alliance-for-AI-Ethics)
+**Source:** https://www.chips-ju.europa.eu/Open-and-Upcoming-Calls/
 
 ---
+
+## 4. Germany industrial-AI policy direction
+
+Germany continues to align industrial policy around data, AI, foundation technologies and manufacturing adoption. SmartCoat's governed-data, inspection and industrial-knowledge architecture remains well aligned with this direction.
+
+---
+
+## 5. Advanced materials policy watch
+
+The EU Advanced Materials Act preparation remains strategically relevant. SmartCoat's materials ontology should include performance together with sustainability, critical-material exposure, recyclability, safety, supplier dependency and scale-up readiness.
+
+**Source:** https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/chemicals-and-advanced-materials/towards-advanced-materials-act_en
+
+---
+
+## 6. Gulf governance watch
+
+No fresh 3–9 August evidence changes the standing regional view. Qatar remains relevant for trusted-AI governance and research partnerships; Saudi Arabia's July national AI risk-management framework remains a useful comparator; the UAE remains the strongest Gulf market for AI capital and large-scale implementation.
 
 ## Compliance checklist for SmartCoat pilots
 
 - Named business owner and technical owner
 - Intended use and prohibited use
 - Data provenance and lawful access
-- Dataset and model versioning
+- Dataset, preprocessing and model versioning
 - Performance by defect class and severity
 - Unknown-condition and drift handling
+- Decision-boundary matrix: what AI may recommend vs. what requires human authority
 - Human review and override
 - Audit log for recommendations and actions
 - Cybersecurity and permission boundaries
 - Incident and correction process
-- Supplier/model dependency register
+- Supplier/model/runtime dependency register
+- Portability benchmark
 - Energy and sustainability metrics
 
 ## Standards watch list

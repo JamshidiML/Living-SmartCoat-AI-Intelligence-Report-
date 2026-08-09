@@ -1,7 +1,7 @@
 # Company and Competitor Intelligence
 
-**Review window:** 26 June–26 July 2026  
-**Status:** Initial operational edition
+**Review window:** through 9 August 2026  
+**Status:** Operational living record
 
 ## 1. CuspAI — Materials discovery platform
 
@@ -11,43 +11,35 @@
 
 ### English
 
-CuspAI raised $450 million in a Series B round at a reported $2.6 billion valuation and launched the AI Materials Foundry, a coalition of more than 45 partners. Its MIRA platform is positioned as an end-to-end materials discovery environment spanning generative design, simulation, synthesis-route planning and experimental validation. The scale of the round and participation from technology, sovereign and industrial investors indicate that materials AI is moving from specialised research tooling toward capital-intensive platform competition.
+CuspAI raised $450 million in a Series B round at a reported $2.6 billion valuation and launched the AI Materials Foundry, a coalition of more than 45 partners. Its MIRA platform is positioned as an end-to-end materials discovery environment spanning generative design, simulation, synthesis-route planning and experimental validation.
 
-**Strategic interpretation:** CuspAI is not a direct competitor to SmartCoat today, but it validates the long-term SmartCoat thesis: durable value will come from connecting data, modelling, synthesis planning and laboratory validation. SmartCoat's defensible entry point is narrower and more industrial—technical textiles, coatings, process history and production evidence—rather than a universal materials-foundation platform.
+**Strategic interpretation:** CuspAI validates the long-term SmartCoat thesis that value comes from linking data, modelling, synthesis planning and laboratory validation. SmartCoat's defensible entry point remains narrower and more industrial: technical textiles, coatings, process history and production evidence.
 
-**Recommended action:** Track partner access, APIs, industrial case studies and any expansion into polymers, coatings, composites or manufacturing execution. Preserve model independence so SmartCoat can later consume external materials models without surrendering its proprietary process knowledge.
+**Recommended action:** Track any expansion into polymers, coatings, composites or manufacturing workflows.
 
 ### فارسی
 
-CuspAI در دور Series B حدود ۴۵۰ میلیون دلار سرمایه جذب کرده و با ارزش‌گذاری گزارش‌شده ۲.۶ میلیارد دلار، ائتلاف AI Materials Foundry را با بیش از ۴۵ شریک راه‌اندازی کرده است. پلتفرم MIRA کل چرخه کشف ماده از طراحی مولد تا شبیه‌سازی، برنامه‌ریزی سنتز و اعتبارسنجی آزمایشگاهی را هدف گرفته است.
+CuspAI نشان می‌دهد اتصال داده، مدل و اعتبارسنجی آزمایشگاهی در حال تبدیل‌شدن به یک بازار بزرگ است. مزیت SmartCoat باید تمرکز عمیق روی منسوجات فنی، پوشش‌ها و داده واقعی کارخانه باشد.
 
-**برداشت برای SmartCoat:** این شرکت فعلاً رقیب مستقیم نیست، اما نشان می‌دهد که ایده اتصال داده، مدل، آزمایش و تولید در حال تبدیل‌شدن به یک بازار بزرگ است. مزیت SmartCoat باید تمرکز عمیق روی منسوجات فنی، پوشش‌ها، فرایند تولید و داده واقعی کارخانه باشد.
-
-**منبع:** [Reuters — CuspAI funding and AI Materials Foundry](https://www.reuters.com/business/uk-government-bezos-back-cuspais-450-million-round-startup-seeks-discover-new-2026-07-20/)
+**Source:** https://www.reuters.com/business/uk-government-bezos-back-cuspais-450-million-round-startup-seeks-discover-new-2026-07-20/
 
 ---
 
-## 2. Mistral AI — European sovereign-model and infrastructure signal
+## 2. Mistral AI — European sovereign-model signal
 
 **Region:** France / European Union  
 **Category:** Foundation models and sovereign AI  
 **Confidence:** High
 
-### English
+Microsoft and Mistral announced a multibillion-dollar infrastructure agreement supporting Mistral's European expansion. The strategic signal is regional deployment control and model choice.
 
-Microsoft and Mistral announced a multibillion-dollar infrastructure agreement supporting Mistral's European expansion. The arrangement connects Mistral-hosted French infrastructure with Microsoft Azure distribution and integrates Mistral models into Microsoft developer and agent platforms. The strategic signal is more important than the individual model release: European buyers increasingly want controllable deployment, regional data infrastructure and alternatives to a single U.S.-controlled AI stack.
-
-**Strategic interpretation:** SmartCoat should treat model providers as replaceable infrastructure. Sensitive industrial knowledge should remain in governed databases, ontologies and retrieval layers. The application layer should be able to route tasks to European, open-weight, on-premise or commercial models.
-
-**Recommended action:** Maintain a model-adapter architecture and add an evaluation track for EU-hosted and locally deployable models. Measure quality, cost, latency, data residency and auditability rather than selecting a provider by brand.
+**SmartCoat interpretation:** Treat model providers as replaceable infrastructure. Keep sensitive industrial knowledge in governed databases, ontologies and retrieval layers.
 
 ### فارسی
 
-همکاری چندمیلیارددلاری Microsoft و Mistral برای توسعه زیرساخت اروپایی نشان می‌دهد تقاضا برای مدل‌هایی با میزبانی منطقه‌ای، کنترل بیشتر و استقلال نسبی از زیرساخت‌های آمریکایی در حال افزایش است.
+مدل زبانی نباید مزیت اصلی SmartCoat باشد؛ دانش صنعتی باید مستقل از ارائه‌دهنده مدل نگهداری شود.
 
-**برداشت برای SmartCoat:** مدل زبانی نباید بخش اصلی مزیت رقابتی باشد. دانش صنعتی باید در دیتابیس، آنتولوژی و لایه بازیابی تحت کنترل SmartCoat باقی بماند و مدل‌ها قابل تعویض باشند.
-
-**منبع:** [Reuters — Microsoft supports Mistral's European expansion](https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/)
+**Source:** https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/
 
 ---
 
@@ -57,80 +49,121 @@ Microsoft and Mistral announced a multibillion-dollar infrastructure agreement s
 **Category:** AI investment and infrastructure  
 **Confidence:** High
 
-### English
-
-Abu Dhabi-based MGX closed its first fund at $49 billion, above its original target, and subsequently completed—alongside AIP and BlackRock's GIP—the approximately $40 billion acquisition of Aligned Data Centers. The consortium also committed additional growth capital. MGX explicitly invests across semiconductors, digital infrastructure, foundation technologies and AI applications.
-
-**Strategic interpretation:** The UAE is building influence through ownership across the AI stack rather than through isolated local projects. This creates a future route for industrial-AI partnerships, infrastructure access and regional market entry, but it also means startups approaching the Gulf must demonstrate scalable commercial value and strong governance.
-
-**Recommended action:** Build a UAE market-entry dossier focused on industrial AI for advanced manufacturing, materials traceability and quality inspection. Do not approach capital providers before SmartCoat has a measurable pilot, clear data-governance model and defined commercial deployment unit.
+MGX has assembled large-scale capital across semiconductors, infrastructure and AI applications, reinforcing the UAE as SmartCoat's highest-priority Gulf investment ecosystem after German validation.
 
 ### فارسی
 
-MGX صندوق اول خود را با ۴۹ میلیارد دلار تعهد سرمایه بست و همراه با AIP و BlackRock خرید حدود ۴۰ میلیارد دلاری Aligned Data Centers را تکمیل کرد. استراتژی MGX کل زنجیره AI از نیمه‌هادی تا دیتاسنتر، مدل و نرم‌افزار را پوشش می‌دهد.
+امارات در حال ساخت موقعیت در کل زنجیره AI است؛ SmartCoat فقط پس از اثبات صنعتی قابل‌اندازه‌گیری باید وارد گفت‌وگوی جدی سرمایه‌گذاری شود.
 
-**برداشت برای SmartCoat:** امارات در حال ساخت مالکیت راهبردی در کل زنجیره AI است. برای ورود به این اکوسیستم، SmartCoat باید یک پایلوت صنعتی واقعی، مدل درآمدی روشن و حاکمیت داده قوی داشته باشد.
-
-**منابع:** [MGX Fund I](https://www.mgx.ae/news-insights) · [MGX / AIP / GIP acquisition of Aligned](https://www.mgx.ae/news-insights/aip-mgx-and-blackrocks-gip-close-acquisition-aligned-data-centers)
+**Source:** https://www.mgx.ae/news-insights
 
 ---
 
-## 4. SambaNova — AI infrastructure and sovereign-compute investment
+## 4. SambaNova — Sovereign-compute signal
 
 **Region:** United States / Qatar-backed  
 **Category:** AI compute platforms  
 **Confidence:** High
 
-### English
+Qatar Investment Authority participated in SambaNova's $1 billion financing, reinforcing Qatar's role as a sovereign-AI and infrastructure investor.
 
-Qatar Investment Authority participated in SambaNova's $1 billion Series F round. QIA described the investment as part of its strategy to partner with differentiated technology platforms supporting global AI adoption. The reported valuation increase between funding rounds signals intense demand for alternatives in the AI-compute layer.
+**SmartCoat interpretation:** Maintain accelerator independence and monitor Qatar for long-term trusted-industrial-AI partnerships.
 
-**Strategic interpretation:** The compute market is diversifying beyond standard GPU procurement. SmartCoat should remain hardware-agnostic and avoid designing inference pipelines that depend on one accelerator vendor. Qatar's investment strategy also suggests potential future interest in applied industrial-AI platforms that can be deployed on sovereign infrastructure.
-
-**Recommended action:** Track SambaNova's enterprise deployment model, pricing and support for private knowledge systems. Include Qatar in the long-term partner and funding radar, especially for industrial AI, research collaboration and trusted AI governance.
-
-### فارسی
-
-QIA در دور یک میلیارد دلاری SambaNova شرکت کرده است. این سرمایه‌گذاری نشان می‌دهد قطر علاوه بر مصرف AI، در زیرساخت و پلتفرم‌های محاسباتی نسل بعدی نیز موقعیت می‌سازد.
-
-**برداشت برای SmartCoat:** معماری باید مستقل از GPU یا یک فروشنده خاص باشد. قطر می‌تواند در آینده برای پروژه‌های صنعتی مبتنی بر زیرساخت مستقل و حاکمیت AI بازار یا شریک مناسبی باشد.
-
-**منبع:** [Qatar News Agency — QIA participates in SambaNova financing](https://qna.org.qa/en/news/news-details?date=8%2F07%2F2026&id=qia-participates-in-sambanovas-1-billion-series-e-funding-round)
+**Source:** https://qna.org.qa/en/news/news-details?date=8%2F07%2F2026&id=qia-participates-in-sambanovas-1-billion-series-e-funding-round
 
 ---
 
-## 5. Elm and Huawei — Saudi applied-AI partnership signal
+## 5. Elm — Saudi applied-AI gateway
 
 **Region:** Saudi Arabia  
-**Category:** Digital government, smart cities and AI infrastructure  
+**Category:** Digital platforms and implementation partnerships  
+**Confidence:** High
+
+Elm remains a useful signal for Saudi Arabia's preference for integrated platform and implementation partnerships rather than isolated AI models.
+
+**SmartCoat interpretation:** Saudi entry should be partner-led after German proof.
+
+---
+
+## 6. Agile Robots — Physical AI with factory integration
+
+**Region:** Germany / global  
+**Category:** Industrial robotics and physical AI  
+**Confidence:** Medium–High
+
+### English
+
+Reporting during 3–9 August indicates Munich-based Agile Robots expects 2026 revenue to roughly double from about €300 million in 2025. Management attributes commercial traction not simply to AI-model progress but to factory-floor integration, acquired automation capabilities and the ability to adapt systems to real production constraints. Its March partnership with Google DeepMind adds Gemini Robotics foundation models to this industrial platform.
+
+**Strategic interpretation:** This is a strong comparator for SmartCoat. In industrial AI, the moat is the combination of domain workflow, deployment integration, proprietary operational evidence and continuous improvement—not generic model ownership.
+
+**SmartCoat action:** Track integration depth as a KPI: how many process variables, operator actions, QC outcomes and downstream tests are attached to each AI event.
+
+### فارسی
+
+Agile Robots نشان می‌دهد موفقیت Physical AI از مدل به‌تنهایی نمی‌آید؛ اتصال عمیق به کارخانه، داده عملیاتی و اجرای واقعی مزیت اصلی است. SmartCoat نیز باید عمق یکپارچگی با فرایند را به‌عنوان KPI اندازه‌گیری کند.
+
+**Sources:**
+- https://www.wsj.com/tech/ai/german-robotics-startup-agile-robots-set-to-double-revenue-this-year-6d0a27dc
+- https://www.agile-robots.com/en/news/detail/agile-robots-and-google-deepmind-partner-to-bring-intelligence-to-robotics/
+
+---
+
+## 7. Volta Infra — European AI infrastructure scale-up
+
+**Region:** Europe  
+**Category:** AI cloud and infrastructure  
 **Confidence:** High
 
 ### English
 
-Saudi digital-solutions company Elm signed a memorandum of understanding with Huawei covering artificial intelligence, smart-city applications, IT infrastructure and technology-enabled operational support. This is an ecosystem signal rather than evidence of a completed deployment, but it shows Saudi demand for integrated platforms that combine software, infrastructure and operational transformation.
+Volta Infra announced funding at a reported $2.4 billion valuation, a $10 billion European cloud-compute contract alongside Bitdeer and a $5 billion AI-infrastructure programme with Azora.
 
-**Strategic interpretation:** SmartCoat should not present itself in the Gulf as a standalone model. Its stronger positioning is an industrial decision platform combining data foundation, knowledge capture, quality intelligence and measurable process outcomes.
+**Strategic interpretation:** European compute options are scaling quickly. SmartCoat should benefit from competition among infrastructure providers without embedding its knowledge layer in any one provider.
 
-**Recommended action:** Monitor Elm's industrial and government expansion, identify Saudi manufacturing programmes where materials traceability and predictive quality are relevant, and prepare a partnership model rather than a direct enterprise-sales-only strategy.
+**Recommended action:** Keep cloud execution replaceable and benchmark deployment cost, latency and residency rather than provider brand.
 
 ### فارسی
 
-شرکت Elm عربستان با Huawei تفاهم‌نامه‌ای در حوزه AI، شهر هوشمند، زیرساخت IT و پشتیبانی عملیاتی امضا کرده است. تفاهم‌نامه به معنی اجرای قطعی پروژه نیست، اما جهت بازار عربستان را به سمت راهکارهای یکپارچه نشان می‌دهد.
+افزایش سریع سرمایه در زیرساخت AI اروپا به معنی گزینه‌های بیشتر برای اجرا است، اما لایه دانش SmartCoat باید مستقل از Cloud باقی بماند.
 
-**برداشت برای SmartCoat:** در بازار عربستان، SmartCoat باید به‌عنوان پلتفرم تصمیم‌گیری صنعتی و نه صرفاً یک مدل AI معرفی شود.
-
-**منبع:** [Saudi Press Agency — Elm and Huawei MoU](https://www.spa.gov.sa/en/N2630981)
+**Source:** https://www.reuters.com/business/ai-cloud-startup-volta-valued-24-billion-announces-10-billion-ai-partnership-2026-08-04/
 
 ---
 
+## 8. Discovery Loop — Scientific AI and experimental automation
+
+**Region:** United States / global  
+**Category:** Scientific AI  
+**Confidence:** Medium–High
+
+### English
+
+Discovery Loop emerged this week with a founding team including Jeff Dean, Sanjay Ghemawat, Oriol Vinyals and Quoc Le, plus backing from major venture investors and Alphabet participation. Reported positioning centres on automating machine learning, science and engineering through large-scale experimental loops.
+
+**Strategic interpretation:** This strengthens the long-term case for SmartCoat's closed-loop R&D vision while also increasing competitive pressure around generic scientific-AI platforms. SmartCoat's defensible layer is proprietary industrial context and experiment lineage.
+
+**Recommended action:** Monitor for materials, chemistry, polymer or physical-laboratory offerings. Do not attempt autonomous formulation before the experiment contract is reliable.
+
+### فارسی
+
+Discovery Loop حرکت سرمایه و استعداد سطح بالا به سمت خودکارسازی چرخه علم و آزمایش را نشان می‌دهد. برای SmartCoat این مسیر بلندمدت تأیید می‌شود، اما مزیت باید در داده صنعتی و ردیابی آزمایش باشد.
+
+**Sources:**
+- https://www.businessinsider.com/jeff-dean-new-startup-discovery-loop-google-facts-2026-8
+- https://www.axios.com/newsletters/axios-pro-rata-67141a7b-cecf-4f59-a3e9-70d7283a1bf8
+
 # Company Watch Priorities
 
-| Company / organisation | Why monitor | Watch trigger |
-|---|---|---|
-| CuspAI | Materials-foundry platform | Polymer, coating or industrial-process expansion |
-| Mistral AI | European deployment sovereignty | On-premise industrial agent offerings |
-| MGX | Capital across the AI stack | Industrial-AI application investments |
-| SambaNova | Alternative enterprise AI compute | Private industrial deployments and pricing |
-| Elm | Saudi digital-platform gateway | Manufacturing and industrial AI programmes |
-| Fraunhofer network | German applied-research bridge | Textile, inspection, sensor and materials pilots |
-| Cognex / E+L / major inspection vendors | Direct inspection-market movement | Open-world, VLM or generative inspection products |
+| Company / organisation | Priority | Why monitor | Watch trigger |
+|---|---|---|---|
+| CuspAI | Critical | Materials-foundry platform | Polymer, coating or industrial-process expansion |
+| Discovery Loop | Critical | Closed-loop scientific AI | Materials, chemistry or physical-lab product |
+| Agile Robots | Critical | German physical-AI commercialisation | Factory AI platform expansion and integration model |
+| Cognex / E+L | Critical | Direct inspection-market movement | Open-world, VLM or generative inspection products |
+| Mistral AI | High | European deployment sovereignty | On-premise industrial agent offerings |
+| Volta Infra | High | European compute-market shift | Industrial cloud/edge offering |
+| MGX | High | Capital across the AI stack | Industrial-AI application investments |
+| Elm | High | Saudi implementation gateway | Manufacturing and industrial AI programmes |
+| SambaNova | Medium | Alternative enterprise AI compute | Private industrial deployments and pricing |
+| Fraunhofer network | Critical | German applied-research bridge | Textile, inspection, sensor and materials pilots |

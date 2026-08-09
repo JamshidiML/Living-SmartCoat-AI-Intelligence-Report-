@@ -8,6 +8,33 @@ The project follows semantic versioning adapted for a living intelligence public
 - **Minor:** weekly or monthly intelligence update with substantive new analysis
 - **Patch:** corrections, source updates, formatting or build revisions
 
+## [1.2.0] — 2026-08-09
+
+### Added
+
+- Weekly intelligence review for 3–9 August 2026
+- EU AI Act enforcement milestone analysis and machine-readable AI system-card requirement
+- European AI-chip and compute-evaluation funding signal with reinforced portability acceptance gate
+- Agile Robots physical-AI commercial signal and factory-integration moat interpretation
+- Volta Infra European AI-infrastructure capital signal
+- Discovery Loop scientific-AI signal and machine-readable experiment-contract requirement
+- Hard-tech / physical-AI venture-capital signal
+- Explicit no-filler decision for UAE, Qatar and Saudi Arabia when no priority-changing seven-day evidence was found
+
+### Changed
+
+- Updated the executive brief to version 1.2.0.
+- Added the 9 August weekly review to the generated PDF manifest.
+- Elevated operational compliance evidence, integration-depth metrics and experiment contracts.
+- Retained Germany-first validation and the existing Gulf ranking.
+
+### Strategic decisions
+
+- Compliance evidence becomes part of the pilot product architecture rather than a retrospective document.
+- Factory-integration depth is now treated as a moat metric.
+- The first inspection pilot must support at least two inference runtime paths for portability validation.
+- Closed-loop formulation AI remains gated on structured experiment lineage.
+
 ## [1.1.0] — 2026-08-02
 
 ### Added
