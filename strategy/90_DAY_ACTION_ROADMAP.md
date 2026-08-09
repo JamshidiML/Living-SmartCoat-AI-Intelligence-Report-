@@ -21,6 +21,8 @@ Convert the intelligence findings into one measurable German industrial pilot wh
 - Agreement with QC severity rating
 - Inference latency
 - Estimated scrap and stop-time effect
+- Integration depth: linked process variables, operator actions, QC outcomes and final tests per visual event
+- Portability: acceptance metrics reproduced on a second inference runtime or accelerator path
 
 ## 2. Establish the data contract
 
@@ -44,9 +46,15 @@ Convert the intelligence findings into one measurable German industrial pilot wh
 
 Conduct an inspector-agreement exercise before training.
 
-## 4. Create the AI system card
+## 4. Operationalise the AI system card
 
-Document intended use, excluded use, data, human review, model version, change process, incident handling and EU AI Act risk assessment.
+Document intended use, excluded use, data provenance, model and preprocessing version, decision boundaries, human review, change process, incident handling and EU AI Act risk assessment. Generate these records during the pilot rather than retrospectively.
+
+## 5. Define the experiment contract
+
+Before any formulation recommender, make this chain machine-readable and traceable:
+
+`objective -> formulation -> process -> observation -> test -> decision -> next hypothesis`
 
 # Days 31–60 — Benchmark and learn
 
@@ -62,11 +70,15 @@ Compare raw, difference, flat-field corrected, contrast-normalised and frequency
 - Multi-scale detector
 - Edge-optimised inference
 
-## 3. Synthetic-data experiment
+## 3. Portability benchmark
+
+Freeze one evaluation dataset and acceptance threshold. Reproduce the same pipeline on at least two inference runtime or accelerator paths. Record accuracy delta, latency, memory, energy estimate, packaging effort and vendor-specific dependencies.
+
+## 4. Synthetic-data experiment
 
 Generate a small expert-reviewed set of rare defects. Compare curated synthetic samples with uncontrolled bulk augmentation.
 
-## 4. Knowledge integration
+## 5. Knowledge integration
 
 Connect each defect example to product, material, process state, QC decision and test evidence in the SmartCoat data model—not in this intelligence repository.
 
@@ -84,6 +96,8 @@ Promote the pilot only if:
 - False alarms show measurable improvement.
 - Severity grading is reproducible.
 - Human override and audit logging work.
+- The same acceptance dataset passes the alternative runtime test.
+- Consequential recommendations can be reconstructed from data, model and human-decision evidence.
 - Compute and maintenance costs are acceptable.
 
 ## 3. Funding and partnership package
@@ -92,8 +106,9 @@ Prepare:
 
 - Two-page German pilot result
 - Technical architecture
-- AI system card
+- AI system card and evidence pack
 - Data-governance summary
+- Portability benchmark
 - ROI estimate
 - EIC/Horizon/Fraunhofer fit
 - UAE/Saudi/Qatar expansion hypothesis
@@ -115,5 +130,7 @@ Pause or redesign the pilot if:
 - Data cannot be linked to trustworthy QC outcomes.
 - Inspector agreement is too low to create reliable labels.
 - The system is expected to make autonomous stop-line decisions in the first phase.
+- A model recommendation cannot be reconstructed from evidence and version history.
+- The pipeline can run only on one proprietary inference stack without an accepted reason.
 - Confidential factory data would be copied into this intelligence repository.
 - A vendor requires exclusive ownership of SmartCoat's industrial data or knowledge layer.
