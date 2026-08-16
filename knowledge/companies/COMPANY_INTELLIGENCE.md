@@ -1,6 +1,6 @@
 # Company and Competitor Intelligence
 
-**Review window:** through 9 August 2026  
+**Review window:** through 16 August 2026  
 **Status:** Operational living record
 
 ## 1. CuspAI — Materials discovery platform
@@ -9,13 +9,11 @@
 **Category:** AI for materials discovery  
 **Confidence:** High
 
-### English
+CuspAI remains a critical watch item following its $450 million Series B and AI Materials Foundry launch. Its strategic relevance is the convergence of generative design, simulation, synthesis planning and experimental validation.
 
-CuspAI raised $450 million in a Series B round at a reported $2.6 billion valuation and launched the AI Materials Foundry, a coalition of more than 45 partners. Its MIRA platform is positioned as an end-to-end materials discovery environment spanning generative design, simulation, synthesis-route planning and experimental validation.
+**SmartCoat interpretation:** The defensible entry point remains narrower and industrial: technical textiles, coatings, process history and production evidence.
 
-**Strategic interpretation:** CuspAI validates the long-term SmartCoat thesis that value comes from linking data, modelling, synthesis planning and laboratory validation. SmartCoat's defensible entry point remains narrower and more industrial: technical textiles, coatings, process history and production evidence.
-
-**Recommended action:** Track any expansion into polymers, coatings, composites or manufacturing workflows.
+**Recommended action:** Track expansion into polymers, coatings, composites or manufacturing workflows.
 
 ### فارسی
 
@@ -31,15 +29,13 @@ CuspAI نشان می‌دهد اتصال داده، مدل و اعتبارسنج
 **Category:** Foundation models and sovereign AI  
 **Confidence:** High
 
-Microsoft and Mistral announced a multibillion-dollar infrastructure agreement supporting Mistral's European expansion. The strategic signal is regional deployment control and model choice.
+Mistral remains a key European signal for regional deployment control and model choice.
 
 **SmartCoat interpretation:** Treat model providers as replaceable infrastructure. Keep sensitive industrial knowledge in governed databases, ontologies and retrieval layers.
 
 ### فارسی
 
 مدل زبانی نباید مزیت اصلی SmartCoat باشد؛ دانش صنعتی باید مستقل از ارائه‌دهنده مدل نگهداری شود.
-
-**Source:** https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/
 
 ---
 
@@ -49,13 +45,9 @@ Microsoft and Mistral announced a multibillion-dollar infrastructure agreement s
 **Category:** AI investment and infrastructure  
 **Confidence:** High
 
-MGX has assembled large-scale capital across semiconductors, infrastructure and AI applications, reinforcing the UAE as SmartCoat's highest-priority Gulf investment ecosystem after German validation.
+MGX remains a strong UAE signal across semiconductors, infrastructure and AI applications.
 
-### فارسی
-
-امارات در حال ساخت موقعیت در کل زنجیره AI است؛ SmartCoat فقط پس از اثبات صنعتی قابل‌اندازه‌گیری باید وارد گفت‌وگوی جدی سرمایه‌گذاری شود.
-
-**Source:** https://www.mgx.ae/news-insights
+**SmartCoat interpretation:** UAE remains the highest-priority Gulf investment ecosystem after German validation.
 
 ---
 
@@ -65,11 +57,9 @@ MGX has assembled large-scale capital across semiconductors, infrastructure and 
 **Category:** AI compute platforms  
 **Confidence:** High
 
-Qatar Investment Authority participated in SambaNova's $1 billion financing, reinforcing Qatar's role as a sovereign-AI and infrastructure investor.
+Qatar Investment Authority participation in SambaNova's financing continues to support Qatar's longer-horizon sovereign-AI relevance.
 
-**SmartCoat interpretation:** Maintain accelerator independence and monitor Qatar for long-term trusted-industrial-AI partnerships.
-
-**Source:** https://qna.org.qa/en/news/news-details?date=8%2F07%2F2026&id=qia-participates-in-sambanovas-1-billion-series-e-funding-round
+**SmartCoat interpretation:** Maintain accelerator independence and monitor Qatar for trusted-industrial-AI partnerships.
 
 ---
 
@@ -79,9 +69,9 @@ Qatar Investment Authority participated in SambaNova's $1 billion financing, rei
 **Category:** Digital platforms and implementation partnerships  
 **Confidence:** High
 
-Elm remains a useful signal for Saudi Arabia's preference for integrated platform and implementation partnerships rather than isolated AI models.
+Elm remains a useful signal for Saudi Arabia's preference for integrated platform and implementation partnerships.
 
-**SmartCoat interpretation:** Saudi entry should be partner-led after German proof.
+**SmartCoat interpretation:** Saudi entry should remain partner-led after German proof.
 
 ---
 
@@ -91,21 +81,13 @@ Elm remains a useful signal for Saudi Arabia's preference for integrated platfor
 **Category:** Industrial robotics and physical AI  
 **Confidence:** Medium–High
 
-### English
+Agile Robots remains the strongest German comparator for the thesis that industrial-AI value comes from factory integration, operational data and deployment capability rather than model novelty alone.
 
-Reporting during 3–9 August indicates Munich-based Agile Robots expects 2026 revenue to roughly double from about €300 million in 2025. Management attributes commercial traction not simply to AI-model progress but to factory-floor integration, acquired automation capabilities and the ability to adapt systems to real production constraints. Its March partnership with Google DeepMind adds Gemini Robotics foundation models to this industrial platform.
-
-**Strategic interpretation:** This is a strong comparator for SmartCoat. In industrial AI, the moat is the combination of domain workflow, deployment integration, proprietary operational evidence and continuous improvement—not generic model ownership.
-
-**SmartCoat action:** Track integration depth as a KPI: how many process variables, operator actions, QC outcomes and downstream tests are attached to each AI event.
+**SmartCoat action:** Track integration depth as a KPI: process variables, operator actions, QC outcomes and downstream tests attached to each AI event.
 
 ### فارسی
 
-Agile Robots نشان می‌دهد موفقیت Physical AI از مدل به‌تنهایی نمی‌آید؛ اتصال عمیق به کارخانه، داده عملیاتی و اجرای واقعی مزیت اصلی است. SmartCoat نیز باید عمق یکپارچگی با فرایند را به‌عنوان KPI اندازه‌گیری کند.
-
-**Sources:**
-- https://www.wsj.com/tech/ai/german-robotics-startup-agile-robots-set-to-double-revenue-this-year-6d0a27dc
-- https://www.agile-robots.com/en/news/detail/agile-robots-and-google-deepmind-partner-to-bring-intelligence-to-robotics/
+Agile Robots نشان می‌دهد موفقیت Physical AI از مدل به‌تنهایی نمی‌آید؛ اتصال عمیق به کارخانه، داده عملیاتی و اجرای واقعی مزیت اصلی است.
 
 ---
 
@@ -115,19 +97,9 @@ Agile Robots نشان می‌دهد موفقیت Physical AI از مدل به‌
 **Category:** AI cloud and infrastructure  
 **Confidence:** High
 
-### English
+Volta Infra remains a signal that European compute options are scaling quickly.
 
-Volta Infra announced funding at a reported $2.4 billion valuation, a $10 billion European cloud-compute contract alongside Bitdeer and a $5 billion AI-infrastructure programme with Azora.
-
-**Strategic interpretation:** European compute options are scaling quickly. SmartCoat should benefit from competition among infrastructure providers without embedding its knowledge layer in any one provider.
-
-**Recommended action:** Keep cloud execution replaceable and benchmark deployment cost, latency and residency rather than provider brand.
-
-### فارسی
-
-افزایش سریع سرمایه در زیرساخت AI اروپا به معنی گزینه‌های بیشتر برای اجرا است، اما لایه دانش SmartCoat باید مستقل از Cloud باقی بماند.
-
-**Source:** https://www.reuters.com/business/ai-cloud-startup-volta-valued-24-billion-announces-10-billion-ai-partnership-2026-08-04/
+**SmartCoat interpretation:** Benefit from infrastructure competition without embedding the knowledge layer in one provider.
 
 ---
 
@@ -139,31 +111,69 @@ Volta Infra announced funding at a reported $2.4 billion valuation, a $10 billio
 
 ### English
 
-Discovery Loop emerged this week with a founding team including Jeff Dean, Sanjay Ghemawat, Oriol Vinyals and Quoc Le, plus backing from major venture investors and Alphabet participation. Reported positioning centres on automating machine learning, science and engineering through large-scale experimental loops.
+Discovery Loop remains a critical watch item because its founding team and positioning centre on automation of machine learning, science and engineering through large-scale experimental loops. New reporting on 13 August says the company has discussed raising roughly $1 billion at a valuation near $10 billion. Those financing terms are treated as reported discussions, not a closed round.
 
-**Strategic interpretation:** This strengthens the long-term case for SmartCoat's closed-loop R&D vision while also increasing competitive pressure around generic scientific-AI platforms. SmartCoat's defensible layer is proprietary industrial context and experiment lineage.
+**Strategic interpretation:** Capital intensity around scientific AI is increasing. This strengthens the long-term SmartCoat closed-loop R&D thesis but also raises the likelihood that generic platforms move into materials and laboratory workflows.
 
-**Recommended action:** Monitor for materials, chemistry, polymer or physical-laboratory offerings. Do not attempt autonomous formulation before the experiment contract is reliable.
+**Recommended action:** Keep the sequence `capture → normalize → trace → model → recommend → close loop`. Monitor for a materials, chemistry, polymer or physical-laboratory product and for formal confirmation of financing.
 
 ### فارسی
 
-Discovery Loop حرکت سرمایه و استعداد سطح بالا به سمت خودکارسازی چرخه علم و آزمایش را نشان می‌دهد. برای SmartCoat این مسیر بلندمدت تأیید می‌شود، اما مزیت باید در داده صنعتی و ردیابی آزمایش باشد.
+گزارش‌های جدید درباره جذب سرمایه بسیار بزرگ Discovery Loop نشان می‌دهد Scientific AI به یک طبقه سرمایه‌گذاری مهم تبدیل شده است. برای SmartCoat مسیر بلندمدت تأیید می‌شود، اما داده و Lineage آزمایش باید قبل از خودکارسازی فرمولاسیون ساخته شود.
+
+**Source:** https://www.businessinsider.com/former-google-exec-jeff-dean-valuation-for-new-ai-startup-2026-8
+
+---
+
+## 9. NVIDIA Physical AI ecosystem — integrated stack pressure
+
+**Region:** United States / global  
+**Category:** Physical AI platform  
+**Confidence:** Medium–High for this week's LG deployment detail; High for the broader platform direction
+
+### English
+
+Reporting on 13–14 August says LG and NVIDIA are deepening robotics cooperation around a next-generation bipedal humanoid using Isaac GR00T and Jetson Thor, extending an already established NVIDIA/LG physical-AI relationship. The broader NVIDIA robotics stack combines simulation, foundation models, edge compute, sensing and safety components.
+
+**Strategic interpretation:** The competitive unit is becoming a full operational stack. SmartCoat should not try to own a generic foundation model; it should own domain workflow, evidence, ontology and integration while keeping hardware/model interfaces modular.
+
+**SmartCoat action:** Add `action_authority` to every AI event and maintain an explicit boundary between perception/recommendation and autonomous production control.
+
+### فارسی
+
+اکوسیستم NVIDIA نشان می‌دهد رقابت Physical AI به سمت یک پشته کامل حرکت می‌کند. SmartCoat باید مالک Workflow، Evidence و دانش صنعتی باشد و وابستگی خود را به مدل و سخت‌افزار محدود کند.
 
 **Sources:**
-- https://www.businessinsider.com/jeff-dean-new-startup-discovery-loop-google-facts-2026-8
-- https://www.axios.com/newsletters/axios-pro-rata-67141a7b-cecf-4f59-a3e9-70d7283a1bf8
+- https://www.barrons.com/articles/nvidia-stock-price-robots-6d35265f
+- https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world
+
+---
+
+## 10. Applied Materials — AI infrastructure pulls materials engineering and packaging forward
+
+**Region:** United States / global  
+**Category:** Semiconductor materials engineering  
+**Confidence:** High
+
+Applied Materials reported stronger AI-driven demand and expects advanced-packaging revenue to grow more than 70% in 2026, reinforcing the pace of change in accelerators and compute infrastructure.
+
+**Strategic interpretation:** Hardware generations may change faster than industrial applications. SmartCoat should preserve benchmark portability and store hardware/runtime provenance with every model result.
+
+**Source:** https://www.reuters.com/business/applied-materials-forecasts-quarterly-revenue-above-estimates-2026-08-13/
 
 # Company Watch Priorities
 
 | Company / organisation | Priority | Why monitor | Watch trigger |
 |---|---|---|---|
 | CuspAI | Critical | Materials-foundry platform | Polymer, coating or industrial-process expansion |
-| Discovery Loop | Critical | Closed-loop scientific AI | Materials, chemistry or physical-lab product |
+| Discovery Loop | Critical | Closed-loop scientific AI | Confirmed financing or materials/physical-lab product |
 | Agile Robots | Critical | German physical-AI commercialisation | Factory AI platform expansion and integration model |
+| NVIDIA Physical AI | Critical | Integrated models, simulation, edge compute and safety | Manufacturing vision-reasoning or autonomous-action expansion |
 | Cognex / E+L | Critical | Direct inspection-market movement | Open-world, VLM or generative inspection products |
 | Mistral AI | High | European deployment sovereignty | On-premise industrial agent offerings |
 | Volta Infra | High | European compute-market shift | Industrial cloud/edge offering |
 | MGX | High | Capital across the AI stack | Industrial-AI application investments |
 | Elm | High | Saudi implementation gateway | Manufacturing and industrial AI programmes |
 | SambaNova | Medium | Alternative enterprise AI compute | Private industrial deployments and pricing |
+| Applied Materials | Medium | Materials engineering and advanced-packaging cycle | Major compute-stack architecture or capacity shift |
 | Fraunhofer network | Critical | German applied-research bridge | Textile, inspection, sensor and materials pilots |

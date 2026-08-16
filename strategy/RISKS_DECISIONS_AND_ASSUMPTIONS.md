@@ -26,6 +26,12 @@ No formulation recommender should be promoted until the chain `objective -> form
 ### D-008 — Factory integration depth is a moat metric
 The project should measure how deeply each AI event is connected to process variables, operator actions, QC decisions and downstream test outcomes.
 
+### D-009 — Action authority is explicit provenance
+Every AI event must state whether the system may observe, recommend, require human approval, or is prohibited from autonomous action. Stop-line and reject authority remain prohibited in the first inspection pilot.
+
+### D-010 — Supply resilience is part of materials intelligence
+Supplier origin, substitution class, criticality, lead time, regulatory status and geopolitical exposure should be represented alongside technical performance.
+
 ## Top risks
 
 | ID | Risk | Likelihood | Impact | Mitigation |
@@ -42,6 +48,9 @@ The project should measure how deeply each AI event is connected to process vari
 | R-010 | Weekly report grows without improving decisions | Medium | Medium | Monthly consolidation, duplicate removal and action tracking |
 | R-011 | Scientific-AI enthusiasm causes premature autonomous R&D | Medium | High | Experiment-contract gate, human review and staged autonomy |
 | R-012 | AI system is accurate but weakly integrated into factory decisions | Medium | High | Integration-depth KPI and workflow acceptance tests |
+| R-013 | Full-stack physical-AI vendors create hidden switching costs | Medium | High | Modular interfaces, exportable evidence and dual-runtime validation |
+| R-014 | AI recommends technically strong but supply-fragile materials | Medium | High | Supplier-risk ontology and resilience-adjusted formulation criteria |
+| R-015 | Action permissions are ambiguous or drift during deployment | Medium | Critical | Versioned `action_authority`, enforcement tests and human approval gates |
 
 ## Critical assumptions to validate
 
@@ -54,6 +63,7 @@ The project should measure how deeply each AI event is connected to process vari
 7. SmartCoat can demonstrate value without ingesting confidential data into external model providers.
 8. A frozen benchmark can be reproduced on at least two inference runtime paths without unacceptable accuracy or latency loss.
 9. Laboratory experiments can be represented with a stable machine-readable lineage contract.
+10. Supplier criticality and substitution attributes can be maintained with sufficient quality to influence decisions.
 
 ## Monthly decision questions
 
@@ -64,6 +74,8 @@ The project should measure how deeply each AI event is connected to process vari
 - Which assumptions have moved from unknown to validated or rejected?
 - Which recommended actions were completed, delayed or abandoned?
 - Is factory integration depth increasing, or are we only improving benchmark metrics?
+- Are action-authority rules still correct and enforced after every model or workflow change?
+- Is supplier resilience changing the ranking of any candidate material or formulation?
 
 ## Escalation triggers
 
@@ -75,3 +87,5 @@ Immediately update this register when:
 - A partner requests ownership of data, ontology or derived industrial knowledge.
 - A major funding or partnership opportunity has a deadline within 60 days.
 - A scientific-AI or materials platform enters polymers, coatings or technical-textile workflows.
+- A full-stack vendor requires exclusivity or prevents export of model/evidence records.
+- A critical raw material becomes constrained, sanctioned, discontinued or materially more expensive.

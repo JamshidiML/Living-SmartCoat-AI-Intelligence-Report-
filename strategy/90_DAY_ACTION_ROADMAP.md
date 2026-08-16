@@ -31,6 +31,8 @@ Convert the intelligence findings into one measurable German industrial pilot wh
 - Production timestamp and line position
 - Existing alarm and defect labels
 - QC disposition and final test result
+- Hardware/runtime/model/preprocessing provenance for every benchmark
+- `action_authority`: observe, recommend, approval-required or autonomous-prohibited
 - Data-access owner and retention rule
 - No customer or confidential formulation data in the intelligence repository
 
@@ -48,13 +50,17 @@ Conduct an inspector-agreement exercise before training.
 
 ## 4. Operationalise the AI system card
 
-Document intended use, excluded use, data provenance, model and preprocessing version, decision boundaries, human review, change process, incident handling and EU AI Act risk assessment. Generate these records during the pilot rather than retrospectively.
+Document intended use, excluded use, data provenance, hardware/runtime/model/preprocessing version, decision boundaries, `action_authority`, human review, change process, incident handling and EU AI Act risk assessment. Generate these records during the pilot rather than retrospectively.
 
 ## 5. Define the experiment contract
 
 Before any formulation recommender, make this chain machine-readable and traceable:
 
 `objective -> formulation -> process -> observation -> test -> decision -> next hypothesis`
+
+## 6. Extend the supplier/material ontology
+
+Add fields for supplier, country of origin, lead time, substitution class, material criticality, regulatory status, geopolitical exposure and batch-linked performance. The goal is to make technical performance and supply resilience jointly queryable.
 
 # Days 31–60 — Benchmark and learn
 
@@ -86,7 +92,7 @@ Connect each defect example to product, material, process state, QC decision and
 
 ## 1. Shadow-mode deployment
 
-Run the model without controlling production. Compare model recommendations with inspectors and real outcomes.
+Run the model without controlling production. Compare model recommendations with inspectors and real outcomes. Enforce `action_authority=autonomous-prohibited` for stop-line and reject decisions in the first pilot.
 
 ## 2. Decision review
 
@@ -96,6 +102,7 @@ Promote the pilot only if:
 - False alarms show measurable improvement.
 - Severity grading is reproducible.
 - Human override and audit logging work.
+- Action-authority rules are enforced and auditable.
 - The same acceptance dataset passes the alternative runtime test.
 - Consequential recommendations can be reconstructed from data, model and human-decision evidence.
 - Compute and maintenance costs are acceptable.
@@ -109,6 +116,7 @@ Prepare:
 - AI system card and evidence pack
 - Data-governance summary
 - Portability benchmark
+- Supplier-resilience data model summary
 - ROI estimate
 - EIC/Horizon/Fraunhofer fit
 - UAE/Saudi/Qatar expansion hypothesis

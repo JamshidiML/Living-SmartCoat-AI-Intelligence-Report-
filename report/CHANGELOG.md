@@ -8,6 +8,33 @@ The project follows semantic versioning adapted for a living intelligence public
 - **Minor:** weekly or monthly intelligence update with substantive new analysis
 - **Patch:** corrections, source updates, formatting or build revisions
 
+## [1.3.0] — 2026-08-16
+
+### Added
+
+- Weekly intelligence review for 10–16 August 2026
+- Applied Materials advanced-packaging / AI-infrastructure demand signal
+- Updated Discovery Loop scientific-AI capital signal with Medium–High confidence
+- NVIDIA–LG physical-AI integration signal and action-authority requirement
+- U.S. critical-material financing signal and supplier-risk ontology extension
+- Explicit no-filler decision for Germany/EU/Gulf regions when no priority-changing fresh evidence was found
+- Explicit research-promotion decision: no new peer-reviewed paper in the exact window cleared the relevance threshold
+
+### Changed
+
+- Updated the executive brief and structured registries to version 1.3.0.
+- Added the 16 August weekly review to the PDF manifest.
+- Extended AI event provenance with hardware/runtime and `action_authority` fields.
+- Extended supplier intelligence with origin, substitution class, criticality and geopolitical risk.
+- Retained Germany-first validation and existing regional ranking.
+
+### Strategic decisions
+
+- First inspection pilot remains shadow-mode and autonomous production action remains prohibited.
+- Every AI event must record its permitted action authority.
+- Supplier resilience becomes an explicit optimisation dimension alongside technical performance.
+- Closed-loop scientific AI remains gated on experiment lineage.
+
 ## [1.2.0] — 2026-08-09
 
 ### Added
