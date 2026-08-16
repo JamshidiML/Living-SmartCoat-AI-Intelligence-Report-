@@ -1,10 +1,11 @@
-version: 1.2.0
-updated: 2026-08-09
+version: 1.3.0
+updated: 2026-08-16
 sources:
   - report/SmartCoat_AI_Intelligence_Report_2026.md
   - intelligence/monthly/2026-07_MONTHLY_INTELLIGENCE.md
   - intelligence/weekly/2026-08-02_WEEKLY_INTELLIGENCE.md
   - intelligence/weekly/2026-08-09_WEEKLY_INTELLIGENCE.md
+  - intelligence/weekly/2026-08-16_WEEKLY_INTELLIGENCE.md
   - intelligence/regions/REGIONAL_INTELLIGENCE_JULY_2026.md
   - knowledge/companies/COMPANY_INTELLIGENCE.md
   - knowledge/research/RESEARCH_INTELLIGENCE.md
