@@ -2,8 +2,8 @@
 title: "SmartCoat AI Intelligence Report 2026"
 subtitle: "Strategic Intelligence Office — AI, Materials, Vision and Industrial Innovation"
 author: "SmartCoat Intelligence"
-version: "1.3.0"
-updated: "2026-08-16"
+version: "1.4.0"
+updated: "2026-08-23"
 status: "Operational Edition — Weekly Intelligence Cycle"
 ---
 
@@ -19,15 +19,17 @@ This repository remains separate from `smartcoat-intelligence`. It contains publ
 
 SmartCoat should become a traceable industrial decision system built on governed materials, formulation, process, inspection and test evidence. Its defensibility should come from ontology, domain data, validated workflows and measurable factory outcomes rather than ownership of a generic foundation model.
 
-## Weekly update — 16 August 2026
+## Weekly update — 23 August 2026
 
-The 10–16 August review does not change the Germany-first sequence, but it strengthens execution discipline in four areas:
+The 17–23 August review keeps the Germany-first validation sequence unchanged but adds five execution requirements:
 
-- **Physical AI is becoming vertically integrated:** new robotics partnerships increasingly combine foundation models, edge compute, hardware and deployment. SmartCoat should own the domain workflow and evidence layer, not compete on generic models.
-- **Hardware churn remains structural:** strong AI-driven demand for semiconductor materials engineering and advanced packaging reinforces the need for frozen benchmarks, dual-runtime validation and explicit hardware/runtime provenance.
-- **Scientific-AI capital is accelerating:** reported Discovery Loop fundraising discussions strengthen the closed-loop R&D thesis, while confirming that experiment contracts and lineage must precede autonomous formulation.
-- **Supply resilience belongs inside product intelligence:** U.S. critical-material financing reinforces supplier origin, substitution, criticality and geopolitical exposure as formulation decision variables.
-- **No forced regional filler:** no priority-changing new evidence this week justifies changing UAE, Saudi or Qatar rankings, and no newly published peer-reviewed paper cleared the promotion threshold for current inspection/materials priorities.
+- **Enterprise agent infrastructure is moving toward proprietary context/data layers:** amber's €7M Series A in Aachen reinforces the thesis that governed organisational context and integration—not generic LLM access—are the durable control plane for agentic AI.
+- **Physical AI continues to attract major capital:** Gravis Robotics' $200M Series A reinforces that value comes from integrated sensing, simulation, hardware and measurable operational deployment.
+- **EU AI governance is operational, not theoretical:** updated AI Pact guidance after the 2 August enforcement milestone strengthens the case for system cards, evidence packs, role mapping and human oversight as product artefacts.
+- **Compute-stack churn will continue:** more than $820B in announced U.S. semiconductor supply-chain investment reinforces dual-runtime testing and explicit dependency inventories.
+- **Zero-shot industrial anomaly detection merits a bounded experiment:** a new peer-reviewed FreqPrompt-AD paper published 19 August provides a VLM/frequency-guided benchmark candidate for unknown defects, but not a production-control justification.
+
+No fresh in-window evidence justified changing UAE, Saudi Arabia or Qatar rankings. Weak regional filler was not promoted.
 
 ## Decisions
 
@@ -43,12 +45,15 @@ The 10–16 August review does not change the Germany-first sequence, but it str
 10. Delay major Gulf fundraising or sales outreach until a German proof point exists.
 11. Record `action_authority` for every AI event: observe, recommend, approval-required or autonomous-prohibited.
 12. Extend the supplier/material ontology with origin, substitution class, criticality and geopolitical-risk fields.
+13. Require an `agent_context_contract` before any agentic industrial pilot.
+14. Add zero-shot/VLM anomaly detection as a research benchmark route, never as autonomous production control without factory validation.
+15. Require interpretable drivers, uncertainty and evidence links for future materials recommendations.
 
 ## Immediate priorities
 
 ### Priority 1 — Explainable Textile Inspection Copilot
 
-Validate whether an AI layer can reduce false alarms, route unknown anomalies and grade severity using existing line-scan inspection data. Measure not only model accuracy but integration depth: links from each visual event to process variables, operator action, QC decision and downstream test result. Record hardware, runtime, model, preprocessing and `action_authority` provenance for every frozen benchmark run.
+Validate whether an AI layer can reduce false alarms, route unknown anomalies and grade severity using existing line-scan inspection data. Benchmark four routes on one frozen test set: closed-set detector, anomaly detector, open-world route and zero-shot/VLM route. Measure integration depth, false alarms per 1,000 metres, unknown-defect recall, latency, model footprint and portability. Record hardware, runtime, model, preprocessing and `action_authority` provenance for every frozen benchmark run.
 
 ### Priority 2 — Experiment Knowledge Capture Gatekeeper
 
@@ -56,30 +61,32 @@ Improve the quality and completeness of laboratory, production and QC evidence b
 
 ### Priority 3 — Materials and Supplier Resilience Graph
 
-Connect raw materials, suppliers, alternatives, formulations, processes, tests and commercial constraints. Add supplier geography, substitution class, criticality, lead time and geopolitical-risk attributes so technical performance and supply resilience can be optimised together.
+Connect raw materials, suppliers, alternatives, formulations, processes, tests and commercial constraints. Add supplier geography, substitution class, criticality, lead time and geopolitical-risk attributes so technical performance and supply resilience can be optimised together. Future recommendation records should include interpretable drivers and uncertainty.
 
 ### Priority 4 — AI Pilot Evidence Pack
 
-Create a reusable record for intended use, prohibited use, data provenance, model and preprocessing version, evaluation evidence, decision boundaries, human oversight, incidents, changes and action authority.
+Create a reusable record for intended use, prohibited use, data provenance, model and preprocessing version, evaluation evidence, decision boundaries, human oversight, incidents, changes and action authority. Add an `agent_context_contract` when tool-using or workflow-executing agents are introduced.
 
 ## Key performance questions
 
 - Can unknown defects be detected without unacceptable false alarms?
+- Does a zero-shot/VLM route add value beyond anomaly and open-world baselines?
 - Can inspectors agree on severity labels strongly enough to train a model?
 - Can visual evidence be linked to process and final performance?
 - Can SmartCoat demonstrate measurable value within a 90-day shadow pilot?
 - Can the same pipeline be reproduced on an alternative inference runtime?
 - Can every consequential recommendation be reconstructed from data, model and human-decision evidence?
 - Can the system meet EU expectations for transparency, human oversight, traceability and change control?
+- Can agent context, tools and permissions be bounded and reconstructed?
 - Can supply-risk attributes be incorporated without corrupting technical-performance optimisation?
 
 # خلاصه مدیریتی فارسی
 
 این گزارش خروجی یک دفتر مستقل اطلاعات راهبردی است که در همین ریپازیتوری نگهداری می‌شود و با ریپازیتوری اصلی `smartcoat-intelligence` ترکیب نخواهد شد.
 
-تحولات هفته ۱۰ تا ۱۶ اوت ۲۰۲۶ ترتیب اصلی اجرای SmartCoat را تغییر نمی‌دهد، اما چهار الزام را تقویت می‌کند: Physical AI به سمت پشته‌های کامل مدل، Edge Compute و سخت‌افزار حرکت می‌کند؛ تغییر سریع زیرساخت نیمه‌هادی استقلال از Runtime و سخت‌افزار را ضروری‌تر می‌کند؛ سرمایه‌گذاری Scientific AI مسیر Closed-loop R&D را تأیید می‌کند اما Lineage آزمایش باید قبل از Formulation AI ساخته شود؛ و ریسک زنجیره تأمین مواد باید وارد مدل تصمیم شود.
+تحولات هفته ۱۷ تا ۲۳ اوت ۲۰۲۶ ترتیب اصلی اجرای SmartCoat را تغییر نمی‌دهد. آلمان همچنان بازار اول است. جذب سرمایه ۷ میلیون یورویی amber در آخن نشان می‌دهد Agentic AI به سمت لایه‌های داده و دانش سازمانی حرکت می‌کند؛ بنابراین Ontology، Evidence، Permission و Context باید متعلق به SmartCoat باشد و مدل قابل تعویض بماند. سرمایه‌گذاری ۲۰۰ میلیون دلاری Gravis Robotics نیز اهمیت اتصال مدل، حسگر، سخت‌افزار و عملیات واقعی را تأیید می‌کند.
 
-پایلوت اول همچنان باید در آلمان، در حالت Shadow Mode و تحت کنترل انسان اجرا شود. برای هر رویداد AI علاوه بر System Card، نسخه داده و مدل و لاگ تغییر، سطح مجوز عمل نیز باید ثبت شود: مشاهده، پیشنهاد، نیازمند تأیید یا ممنوع از اقدام خودکار. همچنین Materials Graph باید کشور مبدأ، جایگزین، Criticality، Lead Time و ریسک ژئوپلیتیک را پوشش دهد.
+در اروپا AI Pact و فعال‌شدن اختیارات اجرایی AI Act اهمیت System Card، Evidence Pack و Human Oversight را بیشتر کرده است. در آمریکا بیش از ۸۲۰ میلیارد دلار سرمایه‌گذاری اعلام‌شده در زنجیره نیمه‌هادی، استقلال از Runtime و Accelerator خاص را ضروری‌تر می‌کند. مقاله جدید FreqPrompt-AD نیز یک مسیر Zero-shot/VLM برای خطاهای ناشناخته پیشنهاد می‌دهد که باید فقط به‌عنوان Benchmark آزمایشی بررسی شود.
 
 ## تصمیم‌های اصلی
 
@@ -91,8 +98,9 @@ Create a reusable record for intended use, prohibited use, data provenance, mode
 ۶. Knowledge Graph و داده ساختاریافته آزمایش‌ها هسته مزیت رقابتی باشند.  
 ۷. برای هر پایلوت System Card، Evidence Pack و آزمون Portability ایجاد شود.  
 ۸. برای هر AI Event سطح اختیار عمل ثبت شود.  
-۹. Supplier Graph با ریسک تأمین و Criticality توسعه یابد.  
-۱۰. ورود جدی به بازارهای خلیج فارس پس از ایجاد یک نمونه موفق آلمانی انجام شود.
+۹. برای Agentها یک `agent_context_contract` شامل منبع داده، Tool، Permission و Human Owner تعریف شود.  
+۱۰. Zero-shot/VLM فقط به Benchmark اضافه شود و تا زمان اعتبارسنجی کارخانه‌ای حق تصمیم خودکار نداشته باشد.  
+۱۱. پیشنهادهای Materials AI باید علت، عدم‌قطعیت و Evidence قابل ردیابی داشته باشند.
 
 # Publication Map
 
