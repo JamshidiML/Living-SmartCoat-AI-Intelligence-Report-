@@ -1,5 +1,5 @@
-version: 1.3.0
-updated: 2026-08-16
+version: 1.4.0
+updated: 2026-08-23
 note: Detailed scored records are maintained in data/intelligence_registry.yaml.
 companies:
   materials_ai:
@@ -13,6 +13,8 @@ companies:
     - {name: Prior Labs, region: Europe, status: active, priority: high, rationale: Foundation models for tabular and industrial data}
   industrial_ai:
     - {name: Agile Robots, region: Germany, status: active, priority: critical, rationale: Physical AI with deep factory integration and commercial scaling signal}
+    - {name: amber, region: Germany, status: active, priority: high, rationale: Proprietary enterprise AI Data Layer and autonomous workflow context in Aachen}
+    - {name: Gravis Robotics, region: Europe, status: active, priority: high, rationale: Physical AI combining sensors retrofit hardware simulation and field autonomy}
     - {name: NVIDIA Physical AI, region: United States, status: active, priority: critical, rationale: Foundation models edge compute simulation and safety stack increasingly integrated with industrial robotics}
     - {name: Sereact, region: Germany, status: active, priority: medium, rationale: Embodied and industrial AI}
     - {name: Merantix, region: Germany, status: active, priority: medium, rationale: European AI venture building and ecosystem signal}
@@ -35,20 +37,24 @@ investors_and_programmes:
   - {name: European Innovation Council, region: European Union, priority: critical, type: public_deep_tech_funding}
   - {name: Horizon Europe Cluster 4, region: European Union, priority: critical, type: research_and_innovation_funding}
   - {name: Chips Joint Undertaking, region: European Union, priority: high, type: semiconductor_and_ai_compute_funding}
+  - {name: NRW.Venture, region: Germany, priority: high, type: public_growth_capital}
   - {name: MGX, region: United Arab Emirates, priority: high, type: ai_investor_operator}
   - {name: Qatar Investment Authority, region: Qatar, priority: medium, type: sovereign_investor}
   - {name: Public Investment Fund, region: Saudi Arabia, priority: medium, type: sovereign_investor}
 technologies:
   - {name: Open-world defect detection, maturity: developing, priority: critical}
+  - {name: Zero-shot VLM anomaly detection, maturity: experimental, priority: high}
   - {name: Defect severity grading, maturity: developing, priority: critical}
   - {name: Anomaly detection with human review, maturity: deployable, priority: critical}
   - {name: Synthetic defect generation, maturity: developing, priority: high}
   - {name: Edge AI inspection, maturity: deployable, priority: critical}
   - {name: Model/runtime portability, maturity: deployable, priority: critical}
   - {name: AI event action authority, maturity: deployable, priority: critical}
+  - {name: Agent context contracts, maturity: deployable, priority: critical}
   - {name: Machine-readable AI system cards, maturity: deployable, priority: critical}
   - {name: Closed-loop scientific AI, maturity: emerging, priority: critical}
   - {name: Materials foundation models, maturity: developing, priority: critical}
+  - {name: Interpretable materials recommendations, maturity: developing, priority: critical}
   - {name: Materials supply resilience intelligence, maturity: developing, priority: critical}
   - {name: Industrial knowledge graphs, maturity: developing, priority: critical}
   - {name: Autonomous laboratories, maturity: emerging, priority: medium}

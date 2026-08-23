@@ -8,6 +8,32 @@ The project follows semantic versioning adapted for a living intelligence public
 - **Minor:** weekly or monthly intelligence update with substantive new analysis
 - **Patch:** corrections, source updates, formatting or build revisions
 
+## [1.4.0] — 2026-08-23
+
+### Added
+
+- Weekly intelligence review for 17–23 August 2026
+- amber €7M Aachen Series A signal for enterprise AI data/context layers
+- Gravis Robotics $200M physical-AI financing signal
+- Updated EU AI Pact operationalisation analysis
+- U.S. semiconductor supply-chain investment update above $820B in announced projects
+- Peer-reviewed FreqPrompt-AD zero-shot industrial anomaly detection assessment
+- Interpretable-ML materials recommendation requirement
+- `agent_context_contract` requirement for future agentic pilots
+
+### Changed
+
+- Updated executive report, manifest, registries and watchlist to version 1.4.0.
+- Added a zero-shot/VLM route to the inspection research benchmark without promoting it to autonomous production use.
+- Extended portability validation with explicit dependency inventory.
+- Retained Germany-first validation and existing Gulf sequence because no in-window evidence justified reprioritisation.
+
+### Strategic decisions
+
+- Industrial agents must have bounded, reconstructable context, tool and permission contracts.
+- Model novelty remains subordinate to factory integration depth, evidence and action authority.
+- Future materials recommendations must expose drivers, uncertainty and linked experimental evidence.
+
 ## [1.3.0] — 2026-08-16
 
 ### Added

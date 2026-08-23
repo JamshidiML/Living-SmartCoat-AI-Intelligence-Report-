@@ -1,47 +1,46 @@
-# Regulatory and Standards Radar — 9 August 2026
+# Regulatory and Standards Radar — 23 August 2026
 
-## 1. EU AI Act — operational enforcement milestone
+## 1. EU AI Act — operational enforcement and preparation
 
 ### English
 
-From 2 August 2026, AI Act Article 50 transparency obligations apply and the European Commission's enforcement powers for advanced general-purpose AI models are active. The AI Omnibus has adjusted the schedule for major high-risk obligations, with stand-alone high-risk rules applying from 2 December 2027 and rules for AI embedded in regulated physical products from 2 August 2028. Germany's national implementation framework is also in force.
+The European Commission's current AI Act guidance confirms that the AI Office and national authorities assumed enforcement powers on 2 August 2026, while some high-risk-system requirements have later application dates. The Commission's AI Pact is being used to help organisations prepare ahead of those later obligations.
 
-**SmartCoat implication:** Compliance should be treated as an engineering evidence problem. Every pilot should generate an AI-system inventory entry, intended/prohibited-use statement, dataset/model/preprocessing versions, decision-boundary matrix, human-review evidence, incidents and change history.
+**SmartCoat implication:** Compliance remains an engineering-evidence problem. Every pilot should generate an AI-system inventory entry, intended/prohibited-use statement, dataset/model/preprocessing versions, decision-boundary matrix, human-review evidence, incidents and change history.
+
+**New action:** Add an AI Pact / regulatory-sandbox readiness check to the German pilot evidence pack. Before customer trials, identify SmartCoat's provider/deployer role for the intended use rather than assuming one classification for all deployments.
 
 ### فارسی
 
-از ۲ اوت ۲۰۲۶ بخش مهمی از AI Act وارد مرحله اجرایی شده است. برای SmartCoat، انطباق باید به‌صورت داده و مدرک قابل‌ردیابی در خود چرخه توسعه ساخته شود، نه در پایان پروژه.
+از دوم اوت ۲۰۲۶ اختیارات اجرایی AI Act فعال شده و AI Pact نیز برای آماده‌سازی شرکت‌ها استفاده می‌شود. برای SmartCoat باید نقش Provider و Deployer در هر Use Case مشخص شود و Evidence Pack از ابتدا همراه پایلوت ساخته شود.
 
 **Sources:**
-- https://ai-act-service-desk.ec.europa.eu/en/faq
-- https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act
-- https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-2448548
+- https://digital-strategy.ec.europa.eu/en/policies/ai-pact
+- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
 
 ---
 
-## 2. AI regulatory sandboxes
+## 2. Agent governance becomes a practical control requirement
 
-EU guidance describes regulatory sandboxes as supervised environments for development and testing where competent authorities can provide legal and technical guidance. SmartCoat should monitor German access routes once a production-relevant pilot has a defined intended use and evidence package.
+The growth of enterprise agents that retrieve organisational context and execute workflows increases the importance of controlling what an agent can access and do.
 
-**SmartCoat implication:** A sandbox is useful only after the system boundary, data sources, human authority and measurable pilot objectives are clear.
+**SmartCoat control:** define a machine-readable `agent_context_contract` containing approved data sources, retrieval scope, tools, credentials/permission boundary, evidence links, action authority, human owner, logging and revocation process.
 
-**Source:** https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/what-are-ai-regulatory-sandboxes-and-how-can-providersdeployers-participate
-
----
-
-## 3. European AI-chip evaluation and sovereignty
-
-The Chips Joint Undertaking has active calls for AI-chip demonstrators and common compute-evaluation infrastructure. These programmes are intended to benchmark European AI hardware and strengthen regional compute sovereignty.
-
-**SmartCoat implication:** Treat portability as part of compliance and operational resilience. Record hardware/runtime dependencies in the AI system card and validate a second execution path.
-
-**Source:** https://www.chips-ju.europa.eu/Open-and-Upcoming-Calls/
+This is a SmartCoat governance inference based on emerging enterprise-agent architecture, not a standalone legal obligation.
 
 ---
 
-## 4. Germany industrial-AI policy direction
+## 3. AI regulatory sandboxes
 
-Germany continues to align industrial policy around data, AI, foundation technologies and manufacturing adoption. SmartCoat's governed-data, inspection and industrial-knowledge architecture remains well aligned with this direction.
+EU guidance describes regulatory sandboxes as supervised environments where competent authorities can provide legal and technical guidance. SmartCoat should monitor German access routes once a production-relevant pilot has a defined intended use, evidence pack and human authority model.
+
+---
+
+## 4. European AI-chip evaluation and sovereignty
+
+Chips Joint Undertaking programmes for AI-chip demonstrators and compute evaluation remain relevant. SmartCoat should record hardware/runtime dependencies in the system card and validate a second execution path.
+
+**New action:** add an explicit dependency inventory covering inference libraries, drivers, accelerator-specific operators and conversion steps.
 
 ---
 
@@ -55,28 +54,32 @@ The EU Advanced Materials Act preparation remains strategically relevant. SmartC
 
 ## 6. Gulf governance watch
 
-No fresh 3–9 August evidence changes the standing regional view. Qatar remains relevant for trusted-AI governance and research partnerships; Saudi Arabia's July national AI risk-management framework remains a useful comparator; the UAE remains the strongest Gulf market for AI capital and large-scale implementation.
+No fresh 17–23 August evidence changes the standing regional view. Qatar remains relevant for trusted-AI governance and research partnerships; Saudi Arabia remains a partner-led industrial expansion market; the UAE remains the strongest Gulf market for AI capital and large-scale implementation after German proof.
 
 ## Compliance checklist for SmartCoat pilots
 
 - Named business owner and technical owner
 - Intended use and prohibited use
+- Provider/deployer role assessment for the deployment context
 - Data provenance and lawful access
 - Dataset, preprocessing and model versioning
 - Performance by defect class and severity
 - Unknown-condition and drift handling
-- Decision-boundary matrix: what AI may recommend vs. what requires human authority
+- Decision-boundary matrix and `action_authority`
 - Human review and override
 - Audit log for recommendations and actions
+- Agent context/tool/permission contract where applicable
 - Cybersecurity and permission boundaries
 - Incident and correction process
 - Supplier/model/runtime dependency register
+- Driver/library/accelerator dependency inventory
 - Portability benchmark
 - Energy and sustainability metrics
 
 ## Standards watch list
 
 - EU AI Act implementing guidance and harmonised standards
+- AI Pact and German regulatory sandbox access
 - ISO/IEC 42001 AI management systems
 - ISO/IEC 23894 AI risk management
 - Industrial machine-vision validation practices

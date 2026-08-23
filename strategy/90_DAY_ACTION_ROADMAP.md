@@ -2,7 +2,7 @@
 
 ## Objective
 
-Convert the intelligence findings into one measurable German industrial pilot while preserving the separation between this intelligence repository and the SmartCoat software repository.
+Convert intelligence findings into one measurable German industrial pilot while preserving the separation between this intelligence repository and the SmartCoat software repository.
 
 # Days 0–30 — Define and prepare
 
@@ -10,57 +10,35 @@ Convert the intelligence findings into one measurable German industrial pilot wh
 
 **Recommended pilot:** Shadow-mode textile surface inspection using existing ELSIS imagery.
 
-**Business question:** Can AI reduce false alarms and classify the operational severity of defects without creating unsafe automated decisions?
+**Business question:** Can AI reduce false alarms, route unknown defects and classify operational severity without creating unsafe automated decisions?
 
-**Success metrics:**
-
-- Unknown-defect recall
-- Known-defect macro F1
-- False alarms per 1,000 metres
-- Missed critical defects
-- Agreement with QC severity rating
-- Inference latency
-- Estimated scrap and stop-time effect
-- Integration depth: linked process variables, operator actions, QC outcomes and final tests per visual event
-- Portability: acceptance metrics reproduced on a second inference runtime or accelerator path
+**Success metrics:** unknown-defect recall, known-defect macro F1, false alarms per 1,000 metres, missed critical defects, QC severity agreement, inference latency, model footprint, estimated scrap/stop-time effect, integration depth and portability.
 
 ## 2. Establish the data contract
 
-- Camera and lighting configuration
-- Product, fabric and coating identifiers
-- Production timestamp and line position
-- Existing alarm and defect labels
-- QC disposition and final test result
-- Hardware/runtime/model/preprocessing provenance for every benchmark
-- `action_authority`: observe, recommend, approval-required or autonomous-prohibited
-- Data-access owner and retention rule
-- No customer or confidential formulation data in the intelligence repository
+Record camera/lighting configuration, product/fabric/coating identifiers, timestamp/line position, alarm and defect labels, QC disposition, final test result, hardware/runtime/model/preprocessing provenance, `action_authority`, data owner and retention rule. No confidential factory data belongs in this intelligence repository.
 
 ## 3. Define the defect and severity ontology
 
-- Known defect type
-- Unknown anomaly
-- Informational
-- Monitor
-- Rework
-- Reject
-- Stop-line
-
-Conduct an inspector-agreement exercise before training.
+Include known defect type, unknown anomaly, informational, monitor, rework, reject and stop-line. Conduct an inspector-agreement exercise before training.
 
 ## 4. Operationalise the AI system card
 
-Document intended use, excluded use, data provenance, hardware/runtime/model/preprocessing version, decision boundaries, `action_authority`, human review, change process, incident handling and EU AI Act risk assessment. Generate these records during the pilot rather than retrospectively.
+Document intended/excluded use, data provenance, hardware/runtime/model/preprocessing version, decision boundaries, `action_authority`, human review, change process, incident handling, EU AI Act role assessment and AI Pact/sandbox readiness.
 
-## 5. Define the experiment contract
+## 5. Define the agent context contract
+
+Before any tool-using industrial agent is piloted, define a machine-readable contract covering approved data sources, retrieval scope, tools, credential/permission boundary, evidence links, action authority, human owner, logging and revocation.
+
+## 6. Define the experiment contract
 
 Before any formulation recommender, make this chain machine-readable and traceable:
 
 `objective -> formulation -> process -> observation -> test -> decision -> next hypothesis`
 
-## 6. Extend the supplier/material ontology
+## 7. Extend the supplier/material ontology
 
-Add fields for supplier, country of origin, lead time, substitution class, material criticality, regulatory status, geopolitical exposure and batch-linked performance. The goal is to make technical performance and supply resilience jointly queryable.
+Add supplier, origin, lead time, substitution class, material criticality, regulatory status, geopolitical exposure and batch-linked performance. Future materials recommendation records must also contain interpretable drivers, uncertainty and linked evidence.
 
 # Days 31–60 — Benchmark and learn
 
@@ -70,19 +48,24 @@ Compare raw, difference, flat-field corrected, contrast-normalised and frequency
 
 ## 2. Model benchmark
 
+Run all candidates on one frozen evaluation set:
+
 - Closed-set detector baseline
-- Anomaly-detection baseline
+- PaDiM-style or equivalent anomaly-detection baseline
 - Open-world/unknown routing
+- Zero-shot/VLM anomaly route
 - Multi-scale detector
 - Edge-optimised inference
 
+The zero-shot/VLM route is research-only until it meets the same low-false-alarm acceptance criteria as other candidates.
+
 ## 3. Portability benchmark
 
-Freeze one evaluation dataset and acceptance threshold. Reproduce the same pipeline on at least two inference runtime or accelerator paths. Record accuracy delta, latency, memory, energy estimate, packaging effort and vendor-specific dependencies.
+Reproduce the frozen pipeline on at least two inference runtime or accelerator paths. Record accuracy delta, latency, memory, energy estimate, packaging effort and vendor-specific dependencies. Maintain an explicit dependency inventory for inference libraries, drivers, accelerator-specific operators and conversion steps.
 
 ## 4. Synthetic-data experiment
 
-Generate a small expert-reviewed set of rare defects. Compare curated synthetic samples with uncontrolled bulk augmentation.
+Generate a small expert-reviewed set of rare defects and compare curated synthetic samples with uncontrolled bulk augmentation.
 
 ## 5. Knowledge integration
 
@@ -92,34 +75,15 @@ Connect each defect example to product, material, process state, QC decision and
 
 ## 1. Shadow-mode deployment
 
-Run the model without controlling production. Compare model recommendations with inspectors and real outcomes. Enforce `action_authority=autonomous-prohibited` for stop-line and reject decisions in the first pilot.
+Run the selected model without controlling production. Enforce `action_authority=autonomous-prohibited` for stop-line and reject decisions in the first pilot.
 
 ## 2. Decision review
 
-Promote the pilot only if:
-
-- Critical-defect misses remain below the agreed safety threshold.
-- False alarms show measurable improvement.
-- Severity grading is reproducible.
-- Human override and audit logging work.
-- Action-authority rules are enforced and auditable.
-- The same acceptance dataset passes the alternative runtime test.
-- Consequential recommendations can be reconstructed from data, model and human-decision evidence.
-- Compute and maintenance costs are acceptable.
+Promote the pilot only if critical-defect misses remain below the agreed threshold; false alarms improve measurably; severity grading is reproducible; human override and audit logging work; action-authority rules are enforced; the alternative runtime passes; and consequential recommendations can be reconstructed from evidence.
 
 ## 3. Funding and partnership package
 
-Prepare:
-
-- Two-page German pilot result
-- Technical architecture
-- AI system card and evidence pack
-- Data-governance summary
-- Portability benchmark
-- Supplier-resilience data model summary
-- ROI estimate
-- EIC/Horizon/Fraunhofer fit
-- UAE/Saudi/Qatar expansion hypothesis
+Prepare a two-page German pilot result, technical architecture, AI system card/evidence pack, agent-context template, data-governance summary, portability benchmark, supplier-resilience model, ROI estimate, EIC/Horizon/Fraunhofer fit and Gulf expansion hypothesis.
 
 # Ownership model
 
@@ -133,12 +97,4 @@ Prepare:
 
 # Stop conditions
 
-Pause or redesign the pilot if:
-
-- Data cannot be linked to trustworthy QC outcomes.
-- Inspector agreement is too low to create reliable labels.
-- The system is expected to make autonomous stop-line decisions in the first phase.
-- A model recommendation cannot be reconstructed from evidence and version history.
-- The pipeline can run only on one proprietary inference stack without an accepted reason.
-- Confidential factory data would be copied into this intelligence repository.
-- A vendor requires exclusive ownership of SmartCoat's industrial data or knowledge layer.
+Pause or redesign the pilot if data cannot be linked to trustworthy QC outcomes; inspector agreement is too low; autonomous stop-line control is expected in phase one; recommendations cannot be reconstructed; the pipeline is locked to one proprietary inference stack without accepted reason; an agent cannot be bounded by a context/tool/permission contract; confidential factory data would enter this intelligence repository; or a vendor requires exclusive ownership of industrial data or knowledge.
