@@ -2,59 +2,36 @@
 
 All notable changes to the Living SmartCoat AI Intelligence Office are recorded here.
 
-The project follows semantic versioning adapted for a living intelligence publication:
-
-- **Major:** structural or annual transformation
-- **Minor:** weekly or monthly intelligence update with substantive new analysis
-- **Patch:** corrections, source updates, formatting or build revisions
-
-## [1.0.0] — 2026-07-26
+## [1.5.0] — 2026-08-30
 
 ### Added
-
-- Independent Strategic Intelligence Office architecture, explicitly separated from `smartcoat-intelligence`
-- ChatGPT weekly, monthly and quarterly operating model
-- Editorial, evidence and confidence policy
-- Multi-source report manifest and publication pipeline
-- Initial one-month intelligence cycle covering 26 June–26 July 2026
-- Regional analysis for Germany, EU, United States, UAE, Qatar and Saudi Arabia
-- Company profiles for CuspAI, Mistral AI, MGX, SambaNova and Elm
-- Six research-paper implementation assessments
-- Technology radar, funding radar and regulatory radar
-- Product and startup opportunity portfolio
-- 90-day action roadmap
-- Risks, decisions and assumptions register
-- Structured intelligence registry and reusable entry template
+- Weekly intelligence review for 24–30 August 2026.
+- Qatar strategic-capital signal from QIA participation in Gatik's $200M Series D.
+- Bounded inspection-to-action routing experiment.
+- Synthetic-data provenance requirements aligned to EU transparency obligations.
+- August 2026 monthly consolidation.
 
 ### Changed
-
-- Promoted the report from a single Markdown document to a generated intelligence book assembled from persistent knowledge and strategy sources.
-- Reframed the canonical report as an executive brief and publication map.
-- Expanded GitHub Actions triggers to rebuild after changes in governance, knowledge, intelligence, strategy and templates.
+- Re-ranked Qatar one step upward as a capital signal while retaining Germany-first validation.
+- Kept autonomous production control prohibited.
+- Updated publication manifest to include the August weekly and monthly sources.
 
 ### Strategic decisions
+- Inspection-to-action routing must remain shadow-mode and approval-gated.
+- Synthetic data must carry origin, generator/version and intended-use metadata.
+- Industrial AI value is measured by integration depth, evidence and outcomes, not model novelty.
 
-- Germany-first industrial validation
-- Human-supervised shadow-mode inspection pilot
-- Unknown-defect handling and severity grading as core requirements
-- Model and hardware independence
-- Domain data and knowledge graph as the primary moat
-- Gulf expansion after a validated German proof point
+## [1.4.0] — 2026-08-23
+- Weekly review for 17–23 August 2026; amber, Gravis Robotics, EU governance, semiconductor and zero-shot inspection signals.
 
-## [0.1.1] — 2026-07-26
+## [1.3.0] — 2026-08-16
+- Weekly review for 10–16 August 2026; advanced packaging, Discovery Loop, physical AI and critical-material resilience.
 
-### Fixed
+## [1.2.0] — 2026-08-09
+- Weekly review for 3–9 August 2026; AI Act, AI chips, Agile Robots, Volta Infra and experiment contracts.
 
-- Triggered the first canonical PDF build after the workflow became available on the default branch.
-- Pinned a compatible PDF backend and upgraded GitHub Actions to Node 24 releases.
+## [1.1.0] — 2026-08-02
+- Weekly review for 27 July–2 August 2026; AI Omnibus, gigafactories, semiconductor incentives and AI-for-science infrastructure.
 
-## [0.1.0] — 2026-07-26
-
-### Added
-
-- Canonical 2026 living-report source
-- Initial intelligence structure
-- English-first, Persian-second content policy
-- SmartCoat relevance and recommended-action requirements
-- Structured watch-list foundation
-- Automated PDF build foundation
+## [1.0.0] — 2026-07-26
+- Independent Strategic Intelligence Office architecture, one-month intelligence cycle, regional analysis, company/research/technology/funding/regulatory radars, product opportunities, roadmap, risks and automated PDF pipeline.
