@@ -1,0 +1,1 @@
+Weekly intelligence files are dated and cumulative. Each release separates fact from inference, records confidence, and links recommendations to SmartCoat R&D, computer vision, strategy and startup priorities.
