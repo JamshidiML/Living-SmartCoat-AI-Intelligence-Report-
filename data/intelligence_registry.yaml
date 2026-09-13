@@ -1,164 +1,64 @@
-schema_version: 1.0
-report_version: 1.0.0
-updated: 2026-07-26
+schema_version: 1.1
+report_version: 1.5.0
+updated: 2026-09-13
 review_window:
-  start: 2026-06-26
-  end: 2026-07-26
+  start: 2026-09-06
+  end: 2026-09-13
 repository_boundary:
   independent_from: JamshidiML/smartcoat-intelligence
-  allowed_content:
-    - public intelligence
-    - research synthesis
-    - market analysis
-    - strategic recommendations
-    - generated publications
-  prohibited_content:
-    - confidential formulations
-    - customer data
-    - production credentials
-    - personal data
-    - SmartCoat application source code
+  allowed_content: [public_intelligence, research_synthesis, market_analysis, strategic_recommendations, generated_publications]
+  prohibited_content: [confidential_formulations, customer_data, production_credentials, personal_data, SmartCoat_application_source_code]
 regions:
-  - id: germany
-    priority: 1
-    role: pilot_and_validation
-    next_review: 2026-08-02
-  - id: european_union
-    priority: 2
-    role: funding_regulation_and_scaling
-    next_review: 2026-08-02
-  - id: united_states
-    priority: 3
-    role: technology_and_scientific_ai_ecosystem
-    next_review: 2026-08-02
-  - id: united_arab_emirates
-    priority: 4
-    role: investment_and_advanced_manufacturing_expansion
-    next_review: 2026-08-02
-  - id: saudi_arabia
-    priority: 5
-    role: partner_led_industrial_expansion
-    next_review: 2026-08-02
-  - id: qatar
-    priority: 6
-    role: research_governance_and_sovereign_ai_partnership
-    next_review: 2026-08-02
+  - {id: germany, priority: 1, role: pilot_and_validation, next_review: 2026-09-20}
+  - {id: european_union, priority: 2, role: funding_regulation_and_scaling, next_review: 2026-09-20}
+  - {id: united_states, priority: 3, role: technology_and_scientific_ai_ecosystem, next_review: 2026-09-20}
+  - {id: united_arab_emirates, priority: 4, role: investment_and_resilient_ai_infrastructure, next_review: 2026-09-20}
+  - {id: saudi_arabia, priority: 5, role: partner_led_industrial_expansion, next_review: 2026-09-20}
+  - {id: qatar, priority: 6, role: research_governance_and_sovereign_ai_partnership, next_review: 2026-09-20}
 companies:
-  - id: cuspai
-    category: materials_ai
-    region: united_kingdom
-    status: active
-    strategic_relevance: 5
-    confidence: high
-    review_trigger: polymer_coating_or_manufacturing_expansion
-  - id: mistral_ai
-    category: sovereign_foundation_models
-    region: european_union
-    status: active
-    strategic_relevance: 4
-    confidence: high
-    review_trigger: industrial_on_premise_agent_offering
-  - id: mgx
-    category: ai_investment
-    region: united_arab_emirates
-    status: active
-    strategic_relevance: 4
-    confidence: high
-    review_trigger: industrial_ai_application_investment
-  - id: sambanova
-    category: ai_infrastructure
-    region: united_states
-    status: active
-    strategic_relevance: 3
-    confidence: high
-    review_trigger: private_industrial_deployment
-  - id: elm
-    category: digital_platforms
-    region: saudi_arabia
-    status: active
-    strategic_relevance: 3
-    confidence: high
-    review_trigger: manufacturing_or_industrial_ai_programme
+  - {id: agile_robots, category: physical_ai_robotics, region: germany, status: active, strategic_relevance: 5, confidence: medium_high, review_trigger: manufacturing_platform_or_factory_ai_expansion}
+  - {id: amber, category: enterprise_agent_data_layer, region: germany, status: active, strategic_relevance: 4, confidence: high, review_trigger: industrial_manufacturing_agent_or_context_layer_expansion}
+  - {id: cuspai, category: materials_ai, region: united_kingdom, status: active, strategic_relevance: 5, confidence: high, review_trigger: polymer_coating_or_manufacturing_expansion}
+  - {id: nvidia_physical_ai, category: physical_ai_platform, region: united_states, status: active, strategic_relevance: 5, confidence: high, review_trigger: manufacturing_vision_reasoning_or_robot_safety_stack_expansion}
+  - {id: mgx, category: ai_investment, region: united_arab_emirates, status: active, strategic_relevance: 4, confidence: high, review_trigger: industrial_ai_application_investment}
+  - {id: humain, category: sovereign_ai_platform, region: saudi_arabia, status: active_monitor, strategic_relevance: 4, confidence: medium_high, review_trigger: confirmed_ipo_fund_or_industrial_ai_partnership}
+  - {id: sambanova, category: ai_infrastructure, region: united_states, status: active, strategic_relevance: 3, confidence: high, review_trigger: private_industrial_deployment}
+  - {id: elm, category: digital_platforms, region: saudi_arabia, status: active, strategic_relevance: 3, confidence: high, review_trigger: manufacturing_or_industrial_ai_programme}
 technologies:
-  - id: open_world_defect_detection
-    movement: accelerating
-    maturity: developing
-    impact: 5
-    action: experiment
-  - id: anomaly_detection_human_review
-    movement: accelerating
-    maturity: deployable
-    impact: 5
-    action: pilot
-  - id: defect_severity_grading
-    movement: growing
-    maturity: developing
-    impact: 5
-    action: define_ontology
-  - id: synthetic_defect_generation
-    movement: growing
-    maturity: developing
-    impact: 4
-    action: controlled_experiment
-  - id: edge_ai_inspection
-    movement: strong
-    maturity: deployable
-    impact: 5
-    action: pilot
-  - id: industrial_knowledge_graphs
-    movement: growing
-    maturity: developing
-    impact: 5
-    action: adopt_foundation
-  - id: agentic_industrial_workflows
-    movement: accelerating
-    maturity: emerging
-    impact: 4
-    action: sandbox_only
-  - id: ai_act_compliance_tooling
-    movement: urgent
-    maturity: deployable
-    impact: 5
-    action: adopt_governance
+  - {id: open_world_defect_detection, movement: accelerating, maturity: developing, impact: 5, action: experiment, next_review: 2026-09-20}
+  - {id: anomaly_detection_human_review, movement: accelerating, maturity: deployable, impact: 5, action: pilot, next_review: 2026-09-20}
+  - {id: edge_ai_inspection, movement: strong, maturity: deployable, impact: 5, action: pilot, next_review: 2026-09-20}
+  - {id: ai_compliance_evidence_packs, movement: accelerating, maturity: deployable, impact: 5, action: productize, next_review: 2026-09-20}
+  - {id: industrial_agent_red_teaming, movement: growing, maturity: developing, impact: 4, action: sandbox_only, next_review: 2026-09-20}
+  - {id: resilient_edge_offline_ai, movement: accelerating, maturity: deployable, impact: 5, action: pilot_requirement, next_review: 2026-09-20}
+  - {id: materials_supply_resilience_intelligence, movement: accelerating, maturity: developing, impact: 5, action: extend_supplier_ontology, next_review: 2026-09-20}
+  - {id: region_aware_textile_detection, movement: growing, maturity: developing, impact: 4, action: benchmark, next_review: 2026-09-20}
+  - {id: model_runtime_portability, movement: accelerating, maturity: deployable, impact: 5, action: dual_runtime_acceptance_test, next_review: 2026-09-20}
+  - {id: industrial_knowledge_graphs, movement: growing, maturity: developing, impact: 5, action: adopt_foundation, next_review: 2026-09-20}
 opportunities:
-  - id: textile_inspection_copilot
-    priority: 1
-    status: pilot_ready_concept
-  - id: knowledge_capture_gatekeeper
-    priority: 2
-    status: data_foundation_concept
-  - id: materials_supplier_resilience_graph
-    priority: 3
-    status: architecture_ready_concept
-  - id: fire_protection_formulation_planner
-    priority: 4
-    status: research_concept
-  - id: industrial_ai_compliance_pack
-    priority: 5
-    status: internal_capability
-  - id: gulf_localisation_package
-    priority: 6
-    status: expansion_after_german_proof
+  - {id: textile_inspection_copilot, priority: 1, status: pilot_ready_concept}
+  - {id: knowledge_capture_gatekeeper, priority: 2, status: data_foundation_concept}
+  - {id: materials_supplier_resilience_graph, priority: 3, status: architecture_ready_concept}
+  - {id: industrial_ai_compliance_pack, priority: 4, status: product_module_candidate}
+  - {id: model_portability_validation_pack, priority: 5, status: pilot_requirement}
+  - {id: gulf_localisation_package, priority: 6, status: expansion_after_german_proof}
 decisions:
-  - id: D-001
-    status: confirmed
-    statement: Keep this repository separate from smartcoat-intelligence.
-  - id: D-002
-    status: confirmed
-    statement: Validate in Germany before international expansion.
-  - id: D-003
-    status: confirmed
-    statement: First inspection pilot is human-supervised shadow mode.
-  - id: D-004
-    status: confirmed
-    statement: Preserve model and hardware independence.
-  - id: D-005
-    status: confirmed
-    statement: Governed domain data and industrial knowledge form the moat.
+  - {id: D-001, status: confirmed, statement: Keep this repository separate from smartcoat-intelligence.}
+  - {id: D-002, status: confirmed, statement: Validate in Germany before international expansion.}
+  - {id: D-003, status: confirmed, statement: First inspection pilot is human-supervised shadow mode.}
+  - {id: D-004, status: expanded, statement: Preserve model cloud accelerator and runtime independence.}
+  - {id: D-005, status: confirmed, statement: Governed domain data and industrial knowledge form the moat.}
+  - {id: D-006, status: expanded, statement: Require jurisdiction-aware compliance evidence packs and system cards for every AI pilot.}
+  - {id: D-007, status: expanded, statement: Require experiment contracts, end-to-end lineage and interpretable evidence before formulation AI.}
+  - {id: D-008, status: confirmed, statement: Measure factory integration depth as a strategic moat metric.}
+  - {id: D-009, status: confirmed, statement: Record action authority for every AI event and prohibit autonomous production control in the first inspection pilot.}
+  - {id: D-010, status: expanded, statement: Extend materials and supplier graphs with origin, substitution, criticality, lead-time, geopolitical-risk and disruption-scenario attributes.}
+  - {id: D-014, status: new, statement: Add resilient offline and degraded-mode requirements to factory AI acceptance tests.}
+  - {id: D-015, status: new, statement: Create a reusable Germany-to-Gulf expansion evidence package.}
+  - {id: D-016, status: new, statement: Expand the textile benchmark with region-aware attention, tiny-defect and false-alarm slices.}
 publication:
   canonical_source: report/SmartCoat_AI_Intelligence_Report_2026.md
   manifest: report/report_manifest.yaml
+  latest_weekly: intelligence/weekly/2026-09-13_WEEKLY_INTELLIGENCE.md
   pdf: dist/SmartCoat_AI_Intelligence_Report_2026.pdf
-  language_order:
-    - english
-    - persian
+  language_order: [english, persian]
