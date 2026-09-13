@@ -1,165 +1,57 @@
-version: 1.0.0
-updated: 2026-07-26
+version: 1.5.0
+updated: 2026-09-13
 note: Detailed scored records are maintained in data/intelligence_registry.yaml.
 companies:
   materials_ai:
-    - name: CuspAI
-      region: United Kingdom
-      status: active
-      priority: critical
-      rationale: End-to-end materials foundry and major funding signal
-      triggers:
-        - polymers
-        - coatings
-        - composites
-        - manufacturing_workflows
-    - name: Materials Nexus
-      region: United Kingdom
-      status: active
-      priority: high
-      rationale: Commercial materials discovery and optimisation
-    - name: Orbital Materials
-      region: United States
-      status: active
-      priority: high
-      rationale: Generative models and industrial materials applications
+    - {name: CuspAI, region: United Kingdom, status: active, priority: critical, rationale: End-to-end materials discovery and foundry signal}
+    - {name: Materials Nexus, region: United Kingdom, status: active, priority: high, rationale: Commercial materials discovery and optimisation}
+    - {name: Orbital Materials, region: United States, status: active, priority: high, rationale: Generative models and industrial materials applications}
+  scientific_ai:
+    - {name: Discovery Loop, region: United States, status: active_monitor, priority: critical, rationale: Closed-loop science and engineering automation}
   foundation_models:
-    - name: Mistral AI
-      region: European Union
-      status: active
-      priority: high
-      rationale: European sovereign and deployable model ecosystem
-    - name: Prior Labs
-      region: Europe
-      status: active
-      priority: high
-      rationale: Foundation models for tabular and industrial data
+    - {name: Mistral AI, region: European Union, status: active, priority: high, rationale: European sovereign and deployable model ecosystem}
   industrial_ai:
-    - name: Sereact
-      region: Germany
-      status: active
-      priority: medium
-      rationale: Embodied and industrial AI
-    - name: Merantix
-      region: Germany
-      status: active
-      priority: medium
-      rationale: European AI venture building and ecosystem signal
-    - name: Elm
-      region: Saudi Arabia
-      status: active
-      priority: high
-      rationale: Saudi digital-platform and partnership gateway
+    - {name: Agile Robots, region: Germany, status: active, priority: critical, rationale: Physical AI and factory integration}
+    - {name: amber, region: Germany, status: active, priority: high, rationale: Enterprise AI data/context layer}
+    - {name: Gravis Robotics, region: Europe, status: active, priority: high, rationale: Sensors, retrofit hardware, simulation and field autonomy}
+    - {name: NVIDIA Physical AI, region: United States, status: active, priority: critical, rationale: Foundation models, simulation and edge robotics stack}
+    - {name: Humain, region: Saudi Arabia, status: active_monitor, priority: high, rationale: Sovereign AI scale-up and infrastructure signal}
+    - {name: Sereact, region: Germany, status: active, priority: medium, rationale: Embodied and industrial AI}
   infrastructure:
-    - name: MGX
-      region: United Arab Emirates
-      status: active
-      priority: high
-      rationale: Capital deployment across semiconductors, infrastructure and AI applications
-    - name: SambaNova
-      region: United States
-      status: active
-      priority: medium
-      rationale: Alternative enterprise and sovereign AI compute
-    - name: Axelera AI
-      region: Netherlands
-      status: active
-      priority: medium
-      rationale: Edge inference hardware for computer vision
+    - {name: MGX, region: United Arab Emirates, status: active, priority: high, rationale: Capital across semiconductors, infrastructure and AI applications}
+    - {name: SambaNova, region: United States, status: active, priority: medium, rationale: Alternative enterprise and sovereign AI compute}
+    - {name: Axelera AI, region: Netherlands, status: active, priority: medium, rationale: Edge inference hardware for computer vision}
   inspection:
-    - name: Cognex
-      region: United States
-      status: active
-      priority: critical
-      rationale: Major industrial machine-vision incumbent
-    - name: Erhardt+Leimer
-      region: Germany
-      status: active
-      priority: critical
-      rationale: Existing inspection-system ecosystem and potential AI evolution
+    - {name: Cognex, region: United States, status: active, priority: critical, rationale: Industrial machine-vision incumbent}
+    - {name: Erhardt+Leimer, region: Germany, status: active, priority: critical, rationale: Existing inspection-system ecosystem}
 research_labs:
-  - name: Fraunhofer
-    region: Germany
-    priority: critical
-    focus:
-      - advanced_materials
-      - technical_textiles
-      - industrial_ai
-      - computer_vision
-      - sensors
-  - name: DFKI
-    region: Germany
-    priority: high
-    focus:
-      - industrial_ai
-      - trustworthy_ai
-  - name: MBZUAI
-    region: United Arab Emirates
-    priority: medium
-    focus:
-      - foundation_models
-      - applied_ai
-  - name: Hamad Bin Khalifa University
-    region: Qatar
-    priority: medium
-    focus:
-      - ai_governance
-      - research_partnerships
+  - {name: Fraunhofer, region: Germany, priority: critical, focus: [advanced_materials, technical_textiles, industrial_ai, computer_vision, sensors]}
+  - {name: DFKI, region: Germany, priority: high, focus: [industrial_ai, trustworthy_ai]}
+  - {name: MBZUAI, region: United Arab Emirates, priority: medium, focus: [foundation_models, applied_ai]}
+  - {name: Hamad Bin Khalifa University, region: Qatar, priority: medium, focus: [ai_governance, research_partnerships]}
 investors_and_programmes:
-  - name: European Innovation Council
-    region: European Union
-    priority: critical
-    type: public_deep_tech_funding
-  - name: Horizon Europe Cluster 4
-    region: European Union
-    priority: critical
-    type: research_and_innovation_funding
-  - name: MGX
-    region: United Arab Emirates
-    priority: high
-    type: ai_investor_operator
-  - name: Qatar Investment Authority
-    region: Qatar
-    priority: medium
-    type: sovereign_investor
-  - name: Public Investment Fund
-    region: Saudi Arabia
-    priority: medium
-    type: sovereign_investor
+  - {name: European Innovation Council, region: European Union, priority: critical, type: public_deep_tech_funding}
+  - {name: Horizon Europe Cluster 4, region: European Union, priority: critical, type: research_and_innovation_funding}
+  - {name: Chips Joint Undertaking, region: European Union, priority: high, type: semiconductor_and_ai_compute_funding}
+  - {name: MGX, region: United Arab Emirates, priority: high, type: ai_investor_operator}
+  - {name: Qatar Investment Authority, region: Qatar, priority: medium, type: sovereign_investor}
+  - {name: Public Investment Fund, region: Saudi Arabia, priority: medium, type: sovereign_investor}
 technologies:
-  - name: Open-world defect detection
-    maturity: developing
-    priority: critical
-  - name: Defect severity grading
-    maturity: developing
-    priority: critical
-  - name: Anomaly detection with human review
-    maturity: deployable
-    priority: critical
-  - name: Synthetic defect generation
-    maturity: developing
-    priority: high
-  - name: Edge AI inspection
-    maturity: deployable
-    priority: critical
-  - name: Materials foundation models
-    maturity: developing
-    priority: critical
-  - name: Industrial knowledge graphs
-    maturity: developing
-    priority: critical
-  - name: Autonomous laboratories
-    maturity: emerging
-    priority: medium
-  - name: Physics-informed machine learning
-    maturity: developing
-    priority: high
-  - name: Agentic industrial workflows
-    maturity: emerging
-    priority: high
+  - {name: Open-world defect detection, maturity: developing, priority: critical}
+  - {name: Zero-shot VLM anomaly detection, maturity: experimental, priority: high}
+  - {name: Region-aware textile detection, maturity: developing, priority: high}
+  - {name: Anomaly detection with human review, maturity: deployable, priority: critical}
+  - {name: Edge/offline AI, maturity: deployable, priority: critical}
+  - {name: Model/runtime portability, maturity: deployable, priority: critical}
+  - {name: AI compliance evidence packs, maturity: deployable, priority: critical}
+  - {name: Industrial-agent red-teaming, maturity: developing, priority: high}
+  - {name: Supplier resilience intelligence, maturity: developing, priority: critical}
+  - {name: Closed-loop scientific AI, maturity: emerging, priority: critical}
+  - {name: Industrial knowledge graphs, maturity: developing, priority: critical}
 review_rules:
   - Verify status and claims from current sources before publication.
   - Update existing records rather than creating duplicates.
   - Record important changes in report/CHANGELOG.md.
   - Promote only high-value items into the canonical PDF.
   - Review critical items weekly and medium-priority items monthly.
+  - Do not force geographic representation when no priority-changing fresh evidence exists.
