@@ -2,24 +2,22 @@
 
 All notable changes to the Living SmartCoat AI Intelligence Office are recorded here.
 
-## [1.5.0] — 2026-08-30
+## [1.5.0] — 2026-09-13
 
 ### Added
-- Weekly intelligence review for 24–30 August 2026.
-- Qatar strategic-capital signal from QIA participation in Gatik's $200M Series D.
-- Bounded inspection-to-action routing experiment.
-- Synthetic-data provenance requirements aligned to EU transparency obligations.
-- August 2026 monthly consolidation.
+- Weekly intelligence review for 6–13 September 2026.
+- EU–U.S. regulatory divergence and jurisdiction-aware evidence-pack requirement.
+- ENISA frontier-model evaluation signal and agent red-team requirement.
+- UAE resilient AI-infrastructure signal and offline/degraded-mode pilot requirement.
+- Germany–UAE industrial cooperation signal and Germany-to-Gulf evidence package.
+- Saudi Humain scale-up/IPO signal.
+- Supplier-disruption scenarios and resilient materials intelligence requirement.
+- Region-aware textile-defect benchmark slice.
 
 ### Changed
-- Re-ranked Qatar one step upward as a capital signal while retaining Germany-first validation.
-- Kept autonomous production control prohibited.
-- Updated publication manifest to include the August weekly and monthly sources.
-
-### Strategic decisions
-- Inspection-to-action routing must remain shadow-mode and approval-gated.
-- Synthetic data must carry origin, generator/version and intended-use metadata.
-- Industrial AI value is measured by integration depth, evidence and outcomes, not model novelty.
+- Preserved Germany-first validation sequence.
+- Re-ranked sovereign infrastructure and supplier resilience as accelerating themes.
+- Added jurisdiction, action authority and operational-accountability fields to pilot records.
 
 ## [1.4.0] — 2026-08-23
 - Weekly review for 17–23 August 2026; amber, Gravis Robotics, EU governance, semiconductor and zero-shot inspection signals.
